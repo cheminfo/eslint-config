@@ -1,3 +1,13 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/cheminfo/eslint-config/compare/v1.1.0...v1.1.1) (2016-07-26)
+
+
+### Bug Fixes
+
+* put allow-null in correct rule ([01a5b8a](https://github.com/cheminfo/eslint-config/commit/01a5b8a))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/cheminfo/eslint-config/compare/v1.0.0...v1.1.0) (2016-07-26)
 
