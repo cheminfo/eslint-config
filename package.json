@@ -17,7 +17,8 @@
     "url": "https://github.com/cheminfo/eslint-config/issues"
   },
   "homepage": "https://github.com/cheminfo/eslint-config#readme",
-  "dependencies": {
+  "peerDependencies": {
+    "eslint": "^3.1.1",
     "eslint-plugin-no-only-tests": "^1.1.0"
   }
 }
