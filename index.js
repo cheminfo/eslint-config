@@ -6,6 +6,9 @@ module.exports = {
         node: true
     },
     extends: 'eslint:recommended',
+    plugins: [
+        'no-only-tests'
+    ],
     rules: {
         'brace-style': ['error', '1tbs'],
         'camelcase': 'error',
@@ -23,7 +26,8 @@ module.exports = {
         'space-before-blocks': 'error',
         'space-before-function-paren': ['error', {anonymous: 'always', named: 'never'}],
         'space-in-parens': ['error', 'never'],
-        'space-infix-ops': ['error'],
-        'space-unary-ops': ['error']
+        'space-infix-ops': 'error',
+        'space-unary-ops': 'error',
+        'no-only-tests/no-only-tests': 'error'
     }
 };
