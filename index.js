@@ -5,6 +5,9 @@ module.exports = {
         es6: true,
         node: true
     },
+    parserOptions: {
+        sourceType: 'script'
+    },
     extends: 'eslint:recommended',
     plugins: [
         'no-only-tests'
