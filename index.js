@@ -14,7 +14,7 @@ module.exports = {
         'no-only-tests'
     ],
     rules: {
-        'array-bracket-spacing': ['error', 'always'],
+        'array-bracket-spacing': ['error', 'never'],
         'array-callback-return': 'error',
         'brace-style': ['error', '1tbs'],
         'camelcase': 'error',
