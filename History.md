@@ -1,3 +1,13 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/cheminfo/eslint-config/compare/v1.2.1...v1.3.0) (2016-10-11)
+
+
+### Features
+
+* add many rules ([b579693](https://github.com/cheminfo/eslint-config/commit/b579693))
+
+
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/cheminfo/eslint-config/compare/v1.2.0...v1.2.1) (2016-09-14)
 
