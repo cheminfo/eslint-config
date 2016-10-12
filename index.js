@@ -20,7 +20,7 @@ module.exports = {
         'camelcase': 'error',
         'comma-spacing': ['error', {after: true, before: false}],
         'comma-style': 'error',
-        'curly': ['error', 'all'],
+        'curly': ['error', 'multi-line', 'consistent'],
         'eol-last': 'error',
         'eqeqeq': ['error', 'allow-null'],
         'indent': ['error', 4, {SwitchCase: 1}],
