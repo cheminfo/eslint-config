@@ -52,6 +52,7 @@ module.exports = {
             preferType: {
                 array: 'Array',
                 Boolean: 'boolean',
+                Function: 'function',
                 Number: 'number',
                 Object: 'object',
                 String: 'string'
