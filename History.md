@@ -1,3 +1,13 @@
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/cheminfo/eslint-config/compare/v1.4.0...v1.5.0) (2016-10-17)
+
+
+### Features
+
+* add some best practices ([558b339](https://github.com/cheminfo/eslint-config/commit/558b339))
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/cheminfo/eslint-config/compare/v1.3.2...v1.4.0) (2016-10-14)
 
