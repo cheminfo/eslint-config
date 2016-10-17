@@ -63,16 +63,27 @@ module.exports = {
         }],
         'valid-typeof': 'error',
 
-        'array-bracket-spacing': ['error', 'never'],
+        // Best Practices (http://eslint.org/docs/rules/#best-practices)
+        'accessor-pairs': 'error',
         'array-callback-return': 'error',
+        'block-scoped-var': 'off', // todo: enable?
+        'class-methods-use-this': 'off',
+        'complexity': 'off', // todo: enable?
+        'consistent-return': 'error',
+        'curly': ['error', 'multi-line', 'consistent'],
+        'default-case': 'error',
+        'dot-location': ['error', 'property'],
+        'dot-notation': 'error',
+        'eqeqeq': ['error', 'allow-null'],
+        // todo continue the list
+
+        'array-bracket-spacing': ['error', 'never'],
         'brace-style': ['error', '1tbs'],
         'camelcase': 'error',
         'comma-dangle': 'off',
         'comma-spacing': ['error', {after: true, before: false}],
         'comma-style': 'error',
-        'curly': ['error', 'multi-line', 'consistent'],
         'eol-last': 'error',
-        'eqeqeq': ['error', 'allow-null'],
         'func-call-spacing': 'error',
         'indent': ['error', 4, {SwitchCase: 1}],
         'key-spacing': 'error',
