@@ -34,7 +34,7 @@ module.exports = {
         'no-invalid-regexp': 'error',
         'no-irregular-whitespace': 'error',
         'no-obj-calls': 'error',
-        'no-prototypes-builtins': 'error', // Use https://github.com/pebble/has-own
+        'no-prototype-builtins': 'error', // Use https://github.com/pebble/has-own
         'no-regex-spaces': 'error',
         'no-sparse-arrays': 'error',
         'no-template-curly-in-string': 'error',
