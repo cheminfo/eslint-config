@@ -1,3 +1,13 @@
+<a name="1.5.1"></a>
+## [1.5.1](https://github.com/cheminfo/eslint-config/compare/v1.5.0...v1.5.1) (2016-10-17)
+
+
+### Bug Fixes
+
+* no-prototype-builtins ([8438472](https://github.com/cheminfo/eslint-config/commit/8438472))
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/cheminfo/eslint-config/compare/v1.4.0...v1.5.0) (2016-10-17)
 
