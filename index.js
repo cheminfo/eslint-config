@@ -43,7 +43,24 @@ module.exports = {
         'no-unsafe-finally': 'error',
         'no-unsafe-negation': 'error',
         'use-isnan': 'error',
-        'valid-jsdoc': 'warn',
+        'valid-jsdoc': ['warn', {
+            prefer: {
+                arg: 'param',
+                argument: 'param',
+                returns: 'return',
+            },
+            preferType: {
+                array: 'Array',
+                Boolean: 'boolean',
+                Number: 'number',
+                Object: 'object',
+                String: 'string'
+            },
+            requireReturn: false,
+            requireReturnType: true,
+            requireParamDescription: false,
+            requireReturnDescription: false
+        }],
         'valid-typeof': 'error',
 
         'array-bracket-spacing': ['error', 'never'],
