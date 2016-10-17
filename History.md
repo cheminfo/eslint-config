@@ -1,3 +1,13 @@
+<a name="1.5.2"></a>
+## [1.5.2](https://github.com/cheminfo/eslint-config/compare/v1.5.1...v1.5.2) (2016-10-17)
+
+
+### Bug Fixes
+
+* add function to jsdoc consistency ([7f6a65f](https://github.com/cheminfo/eslint-config/commit/7f6a65f))
+
+
+
 <a name="1.5.1"></a>
 ## [1.5.1](https://github.com/cheminfo/eslint-config/compare/v1.5.0...v1.5.1) (2016-10-17)
 
