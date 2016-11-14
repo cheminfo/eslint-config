@@ -98,6 +98,7 @@ module.exports = {
         'no-mixed-spaces-and-tabs': 'error',
         'no-multiple-empty-lines': ['error', {max: 2, maxEOF: 1, maxBOF: 1}],
         'no-new-object': 'error',
+        'no-return-await': 'error',
         'no-new-wrappers': 'error',
         'no-shadow-restricted-names': 'error',
         'no-trailing-spaces': 'error',
