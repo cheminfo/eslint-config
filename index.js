@@ -6,7 +6,7 @@ module.exports = {
         node: true
     },
     parserOptions: {
-        ecmaVersion: '2015',
+        ecmaVersion: '2016',
         sourceType: 'script'
     },
     extends: 'eslint:recommended',
@@ -76,6 +76,21 @@ module.exports = {
         'dot-location': ['error', 'property'],
         'dot-notation': 'error',
         'eqeqeq': ['error', 'allow-null'],
+        'guard-for-in': 'off',
+        'no-alert': 'error',
+        'no-caller': 'error',
+        'no-case-declarations': 'error',
+        'no-div-regex': 'error',
+        'no-else-return': 'off', // todo enable?
+        'no-empty-function': 'warn',
+        'no-empty-pattern': 'error',
+        'no-eq-null': 'off',
+        'no-eval': 'warn',
+        'no-extend-native': 'error',
+        'no-extra-bind': 'error',
+        'no-extra-label': 'error',
+        'no-fallthrough': 'error',
+
         // todo continue the list
 
         'array-bracket-spacing': ['error', 'never'],
@@ -92,7 +107,6 @@ module.exports = {
         'new-parens': 'error',
         'no-array-constructor': 'error',
         'no-delete-var': 'error',
-        'no-extra-label': 'error',
         'no-label-var': 'error',
         'no-lone-blocks': 'error',
         'no-mixed-spaces-and-tabs': 'error',
