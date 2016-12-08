@@ -96,6 +96,7 @@ module.exports = {
         'no-label-var': 'error',
         'no-lone-blocks': 'error',
         'no-mixed-spaces-and-tabs': 'error',
+        'no-multi-spaces': 'error',
         'no-multiple-empty-lines': ['error', {max: 2, maxEOF: 1, maxBOF: 1}],
         'no-new-object': 'error',
         'no-return-await': 'error',
