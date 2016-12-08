@@ -1,3 +1,8 @@
+<a name="1.5.4"></a>
+## [1.5.4](https://github.com/cheminfo/eslint-config/compare/v1.5.3...v1.5.4) (2016-12-08)
+
+
+
 <a name="1.5.3"></a>
 ## [1.5.3](https://github.com/cheminfo/eslint-config/compare/v1.5.2...v1.5.3) (2016-11-14)
 
