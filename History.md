@@ -1,3 +1,13 @@
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/cheminfo/eslint-config/compare/v1.5.4...v1.6.0) (2016-12-08)
+
+
+### Features
+
+* add a few more rules ([a120175](https://github.com/cheminfo/eslint-config/commit/a120175))
+
+
+
 <a name="1.5.4"></a>
 ## [1.5.4](https://github.com/cheminfo/eslint-config/compare/v1.5.3...v1.5.4) (2016-12-08)
 
