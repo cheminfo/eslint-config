@@ -1,3 +1,13 @@
+<a name="1.7.0"></a>
+# [1.7.0](https://github.com/cheminfo/eslint-config/compare/v1.6.0...v1.7.0) (2017-03-10)
+
+
+### Features
+
+* allow ES2017 ([24f8ddd](https://github.com/cheminfo/eslint-config/commit/24f8ddd))
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/cheminfo/eslint-config/compare/v1.5.4...v1.6.0) (2016-12-08)
 
