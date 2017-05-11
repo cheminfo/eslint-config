@@ -3,8 +3,9 @@
   "version": "1.7.0",
   "description": "Shared ESLint config for cheminfo and ml.js projects",
   "main": "index.js",
+  "files": ["index.js"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "peerDependencies": {
     "eslint": ">=3.14.1",
     "eslint-plugin-no-only-tests": ">=1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-no-only-tests": "^1.1.0"
   }
 }
