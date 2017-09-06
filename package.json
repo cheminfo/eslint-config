@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-cheminfo",
+  "name": "eslint-config-jajoe",
   "version": "1.8.0",
-  "description": "Shared ESLint config for cheminfo and ml.js projects",
+  "description": "Shared ESLint config for PIC-ACTEMIUM-2017",
   "main": "index.js",
   "files": ["index.js"],
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheminfo/eslint-config.git"
+    "url": "git+https://github.com/jajoe/eslint-config.git"
   },
   "keywords": [],
-  "author": "Michaël Zasso",
+  "author": "Michaël Zasso, Jajoe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cheminfo/eslint-config/issues"
+    "url": "https://github.com/jajoe/eslint-config/issues"
   },
-  "homepage": "https://github.com/cheminfo/eslint-config#readme",
+  "homepage": "https://github.com/jajoe/eslint-config#readme",
   "peerDependencies": {
     "eslint": ">=3.14.1",
     "eslint-plugin-no-only-tests": ">=1.1.0"
