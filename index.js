@@ -16,7 +16,6 @@ module.exports = {
     rules: {
         // Possible Errors (http://eslint.org/docs/rules/#possible-errors)
         'no-cond-assign': 'error',
-        'no-console': 'error',
         'no-constant-condition': ['error', {checkLoops: false}],
         'no-control-regex': 'error',
         'no-debugger': 'error',

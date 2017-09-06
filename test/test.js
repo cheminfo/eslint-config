@@ -19,7 +19,6 @@ assert.strictEqual(okResult.length, 0, 'ok.js should have no error: ' + util.for
 const notOkResult = linter.verify(notOk, config);
 assert.deepStrictEqual(notOkResult.map(error => error.ruleId), [
     'strict',
-    'no-console',
     'no-unused-vars',
     'quotes',
     'no-redeclare',
