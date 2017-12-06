@@ -1,3 +1,13 @@
+<a name="1.9.1"></a>
+## [1.9.1](https://github.com/cheminfo/eslint-config/compare/v1.9.0...v1.9.1) (2017-12-06)
+
+
+### Bug Fixes
+
+* wrap iife inside ([4dab480](https://github.com/cheminfo/eslint-config/commit/4dab480))
+
+
+
 <a name="1.9.0"></a>
 # [1.9.0](https://github.com/cheminfo/eslint-config/compare/v1.8.0...v1.9.0) (2017-12-06)
 
