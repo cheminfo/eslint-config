@@ -1,3 +1,14 @@
+<a name="1.9.0"></a>
+# [1.9.0](https://github.com/cheminfo/eslint-config/compare/v1.8.0...v1.9.0) (2017-12-06)
+
+
+### Features
+
+* add new rules for best practices ([ae3237c](https://github.com/cheminfo/eslint-config/commit/ae3237c))
+* add new rules for possible errors ([1b589e8](https://github.com/cheminfo/eslint-config/commit/1b589e8))
+
+
+
 <a name="1.8.0"></a>
 # [1.8.0](https://github.com/cheminfo/eslint-config/compare/v1.7.0...v1.8.0) (2017-05-11)
 
