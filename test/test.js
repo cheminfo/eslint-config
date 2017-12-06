@@ -29,4 +29,5 @@ assert.deepStrictEqual(errors, [
     'quote-props',
     'quotes',
     'strict',
+    'wrap-iife'
 ]);

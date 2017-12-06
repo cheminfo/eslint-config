@@ -137,7 +137,7 @@ module.exports = {
         'radix': 'warn',
         'require-await': 'error',
         'vars-on-top': 'off', // todo: maybe warn later
-        'wrap-iife': 'error',
+        'wrap-iife': ['error', 'inside'],
         'yoda': 'error',
 
         // Strict Mode (https://eslint.org/docs/rules/#strict-mode)

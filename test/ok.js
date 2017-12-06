@@ -17,6 +17,10 @@ function A() {
 
 useIt(new A());
 
+(function f() {
+    return 1;
+})();
+
 // use this function to mark a variable as used
 function useIt(...vals) {
     return vals;
