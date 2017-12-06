@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">=3.14.1",
+    "eslint": ">=4.2.0",
     "eslint-plugin-no-only-tests": ">=1.1.0"
   },
   "devDependencies": {

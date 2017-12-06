@@ -15,6 +15,10 @@ module.exports = {
     ],
     rules: {
         // Possible Errors (http://eslint.org/docs/rules/#possible-errors)
+        'for-direction': 'error',
+        'getter-return': 'error',
+        'no-await-in-loop': 'error',
+        'no-compare-neg-zero': 'error',
         'no-cond-assign': 'error',
         'no-console': 'error',
         'no-constant-condition': ['error', {checkLoops: false}],
@@ -23,8 +27,8 @@ module.exports = {
         'no-dupe-args': 'error',
         'no-dupe-keys': 'error',
         'no-duplicate-case': 'error',
-        'no-empty-character-class': 'error',
         'no-empty': 'error',
+        'no-empty-character-class': 'error',
         'no-ex-assign': 'error',
         'no-extra-boolean-cast': 'error',
         'no-extra-parens': 'off',
