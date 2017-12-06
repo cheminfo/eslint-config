@@ -17,14 +17,16 @@ const okResult = linter.verify(ok, config);
 assert.strictEqual(okResult.length, 0, 'ok.js should have no error: ' + util.format(okResult));
 
 const notOkResult = linter.verify(notOk, config);
-assert.deepStrictEqual(notOkResult.map(error => error.ruleId), [
-    'strict',
+const errors = notOkResult.map(error => error.ruleId).sort();
+assert.deepStrictEqual(errors, [
     'no-console',
-    'no-unused-vars',
-    'quotes',
+    'no-multiple-empty-lines',
+    'no-new',
     'no-redeclare',
-    'quote-props',
+    'no-unused-vars',
     'one-var',
     'one-var-declaration-per-line',
-    'no-multiple-empty-lines'
+    'quote-props',
+    'quotes',
+    'strict',
 ]);

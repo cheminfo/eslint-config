@@ -11,6 +11,12 @@ b = 2;
 c = a + b;
 useIt(c);
 
+function A() {
+    this.x = 1;
+}
+
+useIt(new A());
+
 // use this function to mark a variable as used
 function useIt(...vals) {
     return vals;
