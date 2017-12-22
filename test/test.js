@@ -7,8 +7,11 @@ const util = require('util');
 const linter = require('eslint').linter;
 
 const config = require('../index');
-delete config.plugins;
-delete config.rules['no-only-tests/no-only-tests'];
+for (const rule of Object.keys(config.rules)) {
+    if (rule.startsWith('jest/')) {
+        delete config.rules[rule];
+    }
+}
 
 const ok = fs.readFileSync(__dirname + '/ok.js', 'utf8');
 const notOk = fs.readFileSync(__dirname + '/not-ok.js', 'utf8');
