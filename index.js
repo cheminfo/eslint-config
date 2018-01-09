@@ -10,9 +10,7 @@ module.exports = {
         sourceType: 'script'
     },
     extends: 'eslint:recommended',
-    plugins: [
-        'jest'
-    ],
+    plugins: ['jest'],
     rules: {
         // Possible Errors (http://eslint.org/docs/rules/#possible-errors)
         'for-direction': 'error',
@@ -21,7 +19,7 @@ module.exports = {
         'no-compare-neg-zero': 'error',
         'no-cond-assign': 'error',
         'no-console': 'error',
-        'no-constant-condition': ['error', {checkLoops: false}],
+        'no-constant-condition': ['error', { checkLoops: false }],
         'no-control-regex': 'error',
         'no-debugger': 'error',
         'no-dupe-args': 'error',
@@ -47,25 +45,28 @@ module.exports = {
         'no-unsafe-finally': 'error',
         'no-unsafe-negation': 'error',
         'use-isnan': 'error',
-        'valid-jsdoc': ['warn', {
-            prefer: {
-                arg: 'param',
-                argument: 'param',
-                returns: 'return',
-            },
-            preferType: {
-                array: 'Array',
-                Boolean: 'boolean',
-                Function: 'function',
-                Number: 'number',
-                Object: 'object',
-                String: 'string'
-            },
-            requireReturn: false,
-            requireReturnType: true,
-            requireParamDescription: false,
-            requireReturnDescription: false
-        }],
+        'valid-jsdoc': [
+            'warn',
+            {
+                prefer: {
+                    arg: 'param',
+                    argument: 'param',
+                    returns: 'return'
+                },
+                preferType: {
+                    array: 'Array',
+                    Boolean: 'boolean',
+                    Function: 'function',
+                    Number: 'number',
+                    Object: 'object',
+                    String: 'string'
+                },
+                requireReturn: false,
+                requireReturnType: true,
+                requireParamDescription: false,
+                requireReturnDescription: false
+            }
+        ],
         'valid-typeof': 'error',
 
         // Best Practices (http://eslint.org/docs/rules/#best-practices)
@@ -73,13 +74,13 @@ module.exports = {
         'array-callback-return': 'error',
         'block-scoped-var': 'off', // todo: enable?
         'class-methods-use-this': 'off',
-        'complexity': 'off', // todo: enable?
+        complexity: 'off', // todo: enable?
         'consistent-return': 'error',
-        'curly': ['error', 'multi-line', 'consistent'],
+        curly: ['error', 'multi-line', 'consistent'],
         'default-case': 'error',
         'dot-location': ['error', 'property'],
         'dot-notation': 'error',
-        'eqeqeq': ['error', 'allow-null'],
+        eqeqeq: ['error', 'allow-null'],
         'guard-for-in': 'off',
         'no-alert': 'error',
         'no-caller': 'error',
@@ -134,26 +135,59 @@ module.exports = {
         'no-warning-comments': 'warn',
         'no-with': 'error',
         'prefer-promise-reject-errors': 'error',
-        'radix': 'warn',
+        radix: 'warn',
         'require-await': 'error',
         'vars-on-top': 'off', // todo: maybe warn later
         'wrap-iife': ['error', 'inside'],
-        'yoda': 'error',
+        yoda: 'error',
 
         // Strict Mode (https://eslint.org/docs/rules/#strict-mode)
-        'strict': ['error', 'global'],
+        strict: ['error', 'global'],
+
+        // ECMAScript 6 (https://eslint.org/docs/rules/#ecmascript-6)
+        'arrow-body-style': 'off',
+        'arrow-parens': 'error',
+        'arrow-spacing': 'error',
+        'constructor-super': 'error',
+        'generator-star-spacing': 'off', // conflicts with prettier
+        'no-class-assign': 'error',
+        'no-confusing-arrow': ['error', { allowParens: true }],
+        'no-const-assign': 'error',
+        'no-dupe-class-members': 'error',
+        'no-duplicate-imports': ['error', { includeExports: true }],
+        'no-new-symbol': 'error',
+        'no-restricted-imports': 'off',
+        'no-this-before-super': 'error',
+        'no-useless-computed-key': 'error',
+        'no-useless-constructor': 'error',
+        'no-useless-rename': 'error',
+        'no-var': 'off', // too soon for enabling this globally
+        'object-shorthand': 'off', // complex
+        'prefer-arrow-callback': 'off', // complex
+        'prefer-const': 'off',
+        'prefer-destructuring': 'off',
+        'prefer-numeric-literals': 'error',
+        'prefer-rest-params': 'error',
+        'prefer-spread': 'error',
+        'prefer-template': 'warn',
+        'require-yield': 'error',
+        'rest-spread-spacing': 'error',
+        'sort-imports': 'off',
+        'symbol-description': 'error',
+        'template-curly-spacing': ['error', 'never'],
+        'yield-star-spacing': ['error', 'after'],
 
         // todo continue the list
 
         'array-bracket-spacing': ['error', 'never'],
         'brace-style': ['error', '1tbs'],
-        'camelcase': 'error',
+        camelcase: 'error',
         'comma-dangle': 'off',
-        'comma-spacing': ['error', {after: true, before: false}],
+        'comma-spacing': ['error', { after: true, before: false }],
         'comma-style': 'error',
         'eol-last': 'error',
         'func-call-spacing': 'error',
-        'indent': ['error', 4, {SwitchCase: 1}],
+        indent: ['error', 4, { SwitchCase: 1 }],
         'key-spacing': 'error',
         'keyword-spacing': 'error',
         'new-parens': 'error',
@@ -161,24 +195,27 @@ module.exports = {
         'no-delete-var': 'error',
         'no-label-var': 'error',
         'no-mixed-spaces-and-tabs': 'error',
-        'no-multiple-empty-lines': ['error', {max: 2, maxEOF: 1, maxBOF: 1}],
+        'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1, maxBOF: 1 }],
         'no-new-object': 'error',
         'no-shadow-restricted-names': 'error',
         'no-trailing-spaces': 'error',
         'no-undef': 'error',
         'no-undef-init': 'error',
         'no-unused-vars': 'error',
-        'object-curly-spacing': ['error', 'never'],
-        'one-var': ['error', {initialized: 'never'}],
+        'object-curly-spacing': ['error', 'always'],
+        'one-var': ['error', { initialized: 'never' }],
         'one-var-declaration-per-line': ['error', 'initializations'],
         'quote-props': ['error', 'as-needed'],
-        'quotes': ['error', 'single', 'avoid-escape'],
-        'semi': 'error',
-        'semi-spacing': ['error', {after: true, before: false}],
+        quotes: ['error', 'single', 'avoid-escape'],
+        semi: 'error',
+        'semi-spacing': ['error', { after: true, before: false }],
         'space-before-blocks': 'error',
-        'space-before-function-paren': ['error', {anonymous: 'always', named: 'never'}],
+        'space-before-function-paren': [
+            'error',
+            { anonymous: 'always', named: 'never' }
+        ],
         'space-in-parens': ['error', 'never'],
-        'space-infix-ops': ['error', {int32Hint: true}],
+        'space-infix-ops': ['error', { int32Hint: true }],
         'space-unary-ops': 'error',
 
         // Jest plugin (https://github.com/jest-community/eslint-plugin-jest)
