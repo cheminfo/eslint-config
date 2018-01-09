@@ -1,3 +1,13 @@
+<a name="1.11.0"></a>
+# [1.11.0](https://github.com/cheminfo/eslint-config/compare/v1.10.0...v1.11.0) (2018-01-09)
+
+
+### Features
+
+* set ES6 rules ([b8f8bbe](https://github.com/cheminfo/eslint-config/commit/b8f8bbe))
+
+
+
 <a name="1.10.0"></a>
 # [1.10.0](https://github.com/cheminfo/eslint-config/compare/v1.9.1...v1.10.0) (2018-01-09)
 
