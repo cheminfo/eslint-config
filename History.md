@@ -1,3 +1,13 @@
+<a name="1.10.0"></a>
+# [1.10.0](https://github.com/cheminfo/eslint-config/compare/v1.9.1...v1.10.0) (2018-01-09)
+
+
+### Features
+
+* use jest plugin ([0b517c1](https://github.com/cheminfo/eslint-config/commit/0b517c1)), closes [#6](https://github.com/cheminfo/eslint-config/issues/6)
+
+
+
 <a name="1.9.1"></a>
 ## [1.9.1](https://github.com/cheminfo/eslint-config/compare/v1.9.0...v1.9.1) (2017-12-06)
 
