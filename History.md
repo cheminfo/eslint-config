@@ -1,3 +1,13 @@
+<a name="1.12.0"></a>
+# [1.12.0](https://github.com/cheminfo/eslint-config/compare/v1.11.0...v1.12.0) (2018-01-10)
+
+
+### Features
+
+* support jest test directories ([32f7400](https://github.com/cheminfo/eslint-config/commit/32f7400))
+
+
+
 <a name="1.11.0"></a>
 # [1.11.0](https://github.com/cheminfo/eslint-config/compare/v1.10.0...v1.11.0) (2018-01-09)
 
