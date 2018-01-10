@@ -11,6 +11,25 @@ module.exports = {
     },
     extends: 'eslint:recommended',
     plugins: ['jest'],
+    overrides: [
+        {
+            files: ['**/__tests__/**/*.js', '*.test.js'],
+            env: {
+                jest: true
+            },
+            rules: {
+                // Jest plugin (https://github.com/jest-community/eslint-plugin-jest)
+                'jest/no-disabled-tests': 'warn',
+                'jest/no-focused-tests': 'error',
+                'jest/no-identical-title': 'error',
+                'jest/no-large-snapshots': 'off',
+                'jest/prefer-to-have-length': 'error',
+                'jest/prefer-to-be-null': 'error',
+                'jest/prefer-to-be-undefined': 'error',
+                'jest/valid-expect': 'error'
+            }
+        }
+    ],
     rules: {
         // Possible Errors (http://eslint.org/docs/rules/#possible-errors)
         'for-direction': 'error',
@@ -216,16 +235,6 @@ module.exports = {
         ],
         'space-in-parens': ['error', 'never'],
         'space-infix-ops': ['error', { int32Hint: true }],
-        'space-unary-ops': 'error',
-
-        // Jest plugin (https://github.com/jest-community/eslint-plugin-jest)
-        'jest/no-disabled-tests': 'warn',
-        'jest/no-focused-tests': 'error',
-        'jest/no-identical-title': 'error',
-        'jest/no-large-snapshots': 'off',
-        'jest/prefer-to-have-length': 'error',
-        'jest/prefer-to-be-null': 'error',
-        'jest/prefer-to-be-undefined': 'error',
-        'jest/valid-expect': 'error'
+        'space-unary-ops': 'error'
     }
 };
