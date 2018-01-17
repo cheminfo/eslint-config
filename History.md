@@ -1,3 +1,13 @@
+<a name="1.13.0"></a>
+# [1.13.0](https://github.com/cheminfo/eslint-config/compare/v1.12.0...v1.13.0) (2018-01-17)
+
+
+### Features
+
+* **jest:** add valid-expect-in-promise ([bbd71a4](https://github.com/cheminfo/eslint-config/commit/bbd71a4))
+
+
+
 <a name="1.12.0"></a>
 # [1.12.0](https://github.com/cheminfo/eslint-config/compare/v1.11.0...v1.12.0) (2018-01-10)
 
