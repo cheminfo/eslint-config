@@ -1,3 +1,13 @@
+<a name="1.14.0"></a>
+# [1.14.0](https://github.com/cheminfo/eslint-config/compare/v1.13.0...v1.14.0) (2018-01-18)
+
+
+### Features
+
+* switch indent rule to two spaces ([#7](https://github.com/cheminfo/eslint-config/issues/7)) ([272378b](https://github.com/cheminfo/eslint-config/commit/272378b))
+
+
+
 <a name="1.13.0"></a>
 # [1.13.0](https://github.com/cheminfo/eslint-config/compare/v1.12.0...v1.13.0) (2018-01-17)
 
