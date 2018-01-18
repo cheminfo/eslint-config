@@ -12,16 +12,16 @@ c = a + b;
 useIt(c);
 
 function A() {
-    this.x = 1;
+  this.x = 1;
 }
 
 useIt(new A());
 
 (function f() {
-    return 1;
+  return 1;
 })();
 
 // use this function to mark a variable as used
 function useIt(...vals) {
-    return vals;
+  return vals;
 }

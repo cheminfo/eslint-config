@@ -22,6 +22,7 @@ assert.strictEqual(okResult.length, 0, 'ok.js should have no error: ' + util.for
 const notOkResult = linter.verify(notOk, config);
 const errors = notOkResult.map(error => error.ruleId).sort();
 assert.deepStrictEqual(errors, [
+    'indent',
     'no-console',
     'no-multiple-empty-lines',
     'no-new',
