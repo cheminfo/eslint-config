@@ -36,7 +36,7 @@ module.exports = {
     // Possible Errors (http://eslint.org/docs/rules/#possible-errors)
     'for-direction': 'error',
     'getter-return': 'error',
-    'no-await-in-loop': 'error',
+    'no-await-in-loop': 'warn',
     'no-compare-neg-zero': 'error',
     'no-cond-assign': 'error',
     'no-console': 'error',
