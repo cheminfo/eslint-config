@@ -1,3 +1,13 @@
+<a name="1.15.0"></a>
+# [1.15.0](https://github.com/cheminfo/eslint-config/compare/v1.14.1...v1.15.0) (2018-01-30)
+
+
+### Features
+
+* add import plugin and rules ([50984a1](https://github.com/cheminfo/eslint-config/commit/50984a1))
+
+
+
 <a name="1.14.1"></a>
 ## [1.14.1](https://github.com/cheminfo/eslint-config/compare/v1.14.0...v1.14.1) (2018-01-23)
 
