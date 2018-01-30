@@ -10,7 +10,7 @@ module.exports = {
     sourceType: 'script'
   },
   extends: 'eslint:recommended',
-  plugins: ['jest'],
+  plugins: ['import', 'jest'],
   overrides: [
     {
       files: ['**/__tests__/**/*.js', '*.test.js'],
@@ -237,6 +237,62 @@ module.exports = {
     ],
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': ['error', { int32Hint: true }],
-    'space-unary-ops': 'error'
+    'space-unary-ops': 'error',
+
+    // Import plugin (https://github.com/benmosher/eslint-plugin-import)
+
+    // Static analysis
+    'import/no-unresolved': ['error', { commonjs: true }],
+    'import/named': 'error',
+    'import/default': 'warn',
+    'import/namespace': 'error',
+    'import/no-restricted-path': 'off',
+    'import/no-absolute-path': 'error',
+    'import/no-dynamic-require': 'warn',
+    'import/no-internal-modules': 'off',
+    'import/no-webpack-loader-syntax': 'error',
+    'import/no-self-import': 'error',
+
+    // Helpful warnings
+    'import/export': 'error',
+    'import/no-named-as-default': 'error',
+    'import/no-named-as-default-member': 'warn',
+    'import/no-deprecated': 'warn',
+    'import/no-extraneous-dependencies': 'error',
+    'import/no-mutable-exports': 'warn',
+
+    // Module systems
+    'import/unambiguous': 'warn',
+    'import/no-commonjs': 'off',
+    'import/no-amd': 'error',
+    'import/no-nodejs-modules': 'off',
+
+    // Style guide
+    'import/first': 'error',
+    'import/exports-last': 'off',
+    'import/no-duplicates': 'error',
+    'import/no-namespace': 'off',
+    'import/extensions': 'off',
+    'import/order': [
+      'warn',
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index'
+        ],
+        'newlines-between': 'always'
+      }
+    ],
+    'import/newline-after-import': 'error',
+    'import/prefer-default-export': 'off',
+    'import/max-dependencies': 'off',
+    'import/no-unassigned-import': 'warn',
+    'import/no-named-default': 'warn',
+    'import/no-anonymous-default-export': 'warn',
+    'import/group-exports': 'off'
   }
 };
