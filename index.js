@@ -251,7 +251,8 @@ module.exports = {
     'import/no-dynamic-require': 'warn',
     'import/no-internal-modules': 'off',
     'import/no-webpack-loader-syntax': 'error',
-    'import/no-self-import': 'error',
+    // todo: enable this rule when it's published
+    // 'import/no-self-import': 'error',
 
     // Helpful warnings
     'import/export': 'error',
