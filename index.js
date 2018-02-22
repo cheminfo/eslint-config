@@ -251,8 +251,7 @@ module.exports = {
     'import/no-dynamic-require': 'warn',
     'import/no-internal-modules': 'off',
     'import/no-webpack-loader-syntax': 'error',
-    // todo: enable this rule when it's published
-    // 'import/no-self-import': 'error',
+    'import/no-self-import': 'error',
 
     // Helpful warnings
     'import/export': 'error',
@@ -293,6 +292,7 @@ module.exports = {
     'import/max-dependencies': 'off',
     'import/no-unassigned-import': 'warn',
     'import/no-named-default': 'warn',
+    'import/no-default-export': 'off',
     'import/no-anonymous-default-export': 'warn',
     'import/group-exports': 'off'
   }
