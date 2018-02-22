@@ -21,6 +21,16 @@ useIt(new A());
   return 1;
 })();
 
+/**
+ * Checks a
+ * @param {string} a
+ * @return {string}
+ */
+function check(a) {
+  return a;
+}
+check('test');
+
 // use this function to mark a variable as used
 function useIt(...vals) {
   return vals;
