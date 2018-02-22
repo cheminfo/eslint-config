@@ -1,3 +1,13 @@
+<a name="1.16.1"></a>
+## [1.16.1](https://github.com/cheminfo/eslint-config/compare/v1.16.0...v1.16.1) (2018-02-22)
+
+
+### Bug Fixes
+
+* disable no-undefined ([40d0215](https://github.com/cheminfo/eslint-config/commit/40d0215))
+
+
+
 <a name="1.16.0"></a>
 # [1.16.0](https://github.com/cheminfo/eslint-config/compare/v1.15.1...v1.16.0) (2018-02-22)
 
