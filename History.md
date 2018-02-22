@@ -1,3 +1,13 @@
+<a name="1.17.0"></a>
+# [1.17.0](https://github.com/cheminfo/eslint-config/compare/v1.16.1...v1.17.0) (2018-02-22)
+
+
+### Features
+
+* add more stylistic rules ([4049614](https://github.com/cheminfo/eslint-config/commit/4049614))
+
+
+
 <a name="1.16.1"></a>
 ## [1.16.1](https://github.com/cheminfo/eslint-config/compare/v1.16.0...v1.16.1) (2018-02-22)
 
