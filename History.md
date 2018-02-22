@@ -1,3 +1,14 @@
+<a name="1.16.0"></a>
+# [1.16.0](https://github.com/cheminfo/eslint-config/compare/v1.15.1...v1.16.0) (2018-02-22)
+
+
+### Features
+
+* add import/no-self-import rule ([c339efe](https://github.com/cheminfo/eslint-config/commit/c339efe))
+* set all Variables and Node.js rules ([2093207](https://github.com/cheminfo/eslint-config/commit/2093207))
+
+
+
 <a name="1.15.1"></a>
 ## [1.15.1](https://github.com/cheminfo/eslint-config/compare/v1.15.0...v1.15.1) (2018-01-30)
 
