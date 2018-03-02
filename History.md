@@ -1,3 +1,13 @@
+<a name="1.17.1"></a>
+## [1.17.1](https://github.com/cheminfo/eslint-config/compare/v1.17.0...v1.17.1) (2018-03-02)
+
+
+### Bug Fixes
+
+* disable callback-return rule ([02de66f](https://github.com/cheminfo/eslint-config/commit/02de66f))
+
+
+
 <a name="1.17.0"></a>
 # [1.17.0](https://github.com/cheminfo/eslint-config/compare/v1.16.1...v1.17.0) (2018-02-22)
 
