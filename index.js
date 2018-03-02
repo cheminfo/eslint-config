@@ -180,7 +180,7 @@ module.exports = {
     'no-use-before-define': 'off',
 
     // Node.js and CommonJS (https://eslint.org/docs/rules/#nodejs-and-commonjs)
-    'callback-return': 'error',
+    'callback-return': 'off',
     'global-require': 'off',
     'handle-callback-err': ['error', '^(err|error|e)$'],
     'no-buffer-constructor': 'error',
