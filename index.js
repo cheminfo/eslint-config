@@ -157,7 +157,7 @@ module.exports = {
     'no-with': 'error',
     'prefer-promise-reject-errors': 'error',
     radix: 'warn',
-    'require-await': 'error',
+    'require-await': 'off',
     'vars-on-top': 'off', // todo: maybe warn later
     'wrap-iife': ['error', 'inside'],
     yoda: 'error',
