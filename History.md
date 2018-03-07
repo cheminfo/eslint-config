@@ -1,3 +1,13 @@
+<a name="1.17.2"></a>
+## [1.17.2](https://github.com/cheminfo/eslint-config/compare/v1.17.1...v1.17.2) (2018-03-07)
+
+
+### Bug Fixes
+
+* disable require-await ([0797901](https://github.com/cheminfo/eslint-config/commit/0797901))
+
+
+
 <a name="1.17.1"></a>
 ## [1.17.1](https://github.com/cheminfo/eslint-config/compare/v1.17.0...v1.17.1) (2018-03-02)
 
