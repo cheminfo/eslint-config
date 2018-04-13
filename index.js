@@ -371,7 +371,7 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/prefer-default-export': 'off',
     'import/max-dependencies': 'off',
-    'import/no-unassigned-import': 'warn',
+    'import/no-unassigned-import': ['warn', { allow: ['make-promises-safe'] }],
     'import/no-named-default': 'warn',
     'import/no-default-export': 'off',
     'import/no-anonymous-default-export': 'warn',
