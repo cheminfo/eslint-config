@@ -1,3 +1,13 @@
+<a name="1.17.3"></a>
+## [1.17.3](https://github.com/cheminfo/eslint-config/compare/v1.17.2...v1.17.3) (2018-04-13)
+
+
+### Bug Fixes
+
+* do not warn unassigned import for make-promises-safe ([55f5f56](https://github.com/cheminfo/eslint-config/commit/55f5f56))
+
+
+
 <a name="1.17.2"></a>
 ## [1.17.2](https://github.com/cheminfo/eslint-config/compare/v1.17.1...v1.17.2) (2018-03-07)
 
