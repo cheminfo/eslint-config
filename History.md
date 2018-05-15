@@ -1,3 +1,13 @@
+<a name="1.17.4"></a>
+## [1.17.4](https://github.com/cheminfo/eslint-config/compare/v1.17.3...v1.17.4) (2018-05-15)
+
+
+### Bug Fixes
+
+* add node-report to allow unassigned imports ([4f5628f](https://github.com/cheminfo/eslint-config/commit/4f5628f))
+
+
+
 <a name="1.17.3"></a>
 ## [1.17.3](https://github.com/cheminfo/eslint-config/compare/v1.17.2...v1.17.3) (2018-04-13)
 
