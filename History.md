@@ -1,3 +1,13 @@
+<a name="1.18.0"></a>
+# [1.18.0](https://github.com/cheminfo/eslint-config/compare/v1.17.4...v1.18.0) (2018-06-26)
+
+
+### Features
+
+* upgrade to ESLint 5 and switch ecmaVersion to 2018 ([54afe77](https://github.com/cheminfo/eslint-config/commit/54afe77))
+
+
+
 <a name="1.17.4"></a>
 ## [1.17.4](https://github.com/cheminfo/eslint-config/compare/v1.17.3...v1.17.4) (2018-05-15)
 
