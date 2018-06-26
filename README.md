@@ -4,7 +4,7 @@ Shared ESLint config for cheminfo and ml.js projects.
 
 ## Installation
 
-```
+```console
 npm install --save-dev eslint-config-cheminfo eslint eslint-plugin-import eslint-plugin-jest
 ```
 

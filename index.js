@@ -6,7 +6,7 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    ecmaVersion: '2017',
+    ecmaVersion: '2018',
     sourceType: 'script'
   },
   extends: 'eslint:recommended',
@@ -371,7 +371,10 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/prefer-default-export': 'off',
     'import/max-dependencies': 'off',
-    'import/no-unassigned-import': ['warn', { allow: ['make-promises-safe', 'node-report'] }],
+    'import/no-unassigned-import': [
+      'warn',
+      { allow: ['make-promises-safe', 'node-report'] }
+    ],
     'import/no-named-default': 'warn',
     'import/no-default-export': 'off',
     'import/no-anonymous-default-export': 'warn',
