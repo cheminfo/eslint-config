@@ -3,28 +3,25 @@
 const assert = require('assert');
 const fs = require('fs');
 const util = require('util');
+const { CLIEngine } = require('eslint');
 
-const linter = require('eslint').linter;
+const engine = new CLIEngine({ configFile: 'index.js' });
 
-const config = require('../index');
-for (const rule of Object.keys(config.rules)) {
-  if (rule.startsWith('jest/') || rule.startsWith('import/')) {
-    delete config.rules[rule];
-  }
-}
+const [okResult, notOkResult] = engine.executeOnFiles([
+  'test/ok.js',
+  'test/not-ok.js'
+]).results;
 
-const ok = fs.readFileSync(__dirname + '/ok.js', 'utf8');
-const notOk = fs.readFileSync(__dirname + '/not-ok.js', 'utf8');
-
-const okResult = linter.verify(ok, config);
 assert.strictEqual(
-  okResult.length,
+  okResult.errorCount,
   0,
   'ok.js should have no error: ' + util.format(okResult)
 );
 
-const notOkResult = linter.verify(notOk, config);
-const errors = notOkResult.map((error) => error.ruleId).sort();
+const errors = notOkResult.messages
+  .filter(isError)
+  .map((error) => error.ruleId)
+  .sort();
 assert.deepStrictEqual(errors, [
   'indent',
   'no-console',
@@ -39,3 +36,7 @@ assert.deepStrictEqual(errors, [
   'strict',
   'wrap-iife'
 ]);
+
+function isError(message) {
+  return message.severity === 2;
+}
