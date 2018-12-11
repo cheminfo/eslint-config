@@ -1,3 +1,14 @@
+# [1.19.0](https://github.com/cheminfo/eslint-config/compare/v1.18.0...v1.19.0) (2018-12-11)
+
+
+### Features
+
+* add rules introduced in ESLint 5.3.0 ([d8075a9](https://github.com/cheminfo/eslint-config/commit/d8075a9))
+* update import rules ([ec15d0e](https://github.com/cheminfo/eslint-config/commit/ec15d0e))
+* update jest rules ([b224941](https://github.com/cheminfo/eslint-config/commit/b224941))
+
+
+
 <a name="1.18.0"></a>
 # [1.18.0](https://github.com/cheminfo/eslint-config/compare/v1.17.4...v1.18.0) (2018-06-26)
 
