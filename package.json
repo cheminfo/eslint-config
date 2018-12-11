@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">=5.0.1",
+    "eslint": ">=5.3.0",
     "eslint-plugin-import": ">=2.14.0",
     "eslint-plugin-jest": ">=22.1.0"
   },
   "devDependencies": {
-    "eslint": "^5.0.1",
+    "eslint": "^5.3.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^22.1.0"
   }

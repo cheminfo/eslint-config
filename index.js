@@ -53,6 +53,7 @@ module.exports = {
     // Possible Errors (http://eslint.org/docs/rules/#possible-errors)
     'for-direction': 'error',
     'getter-return': 'error',
+    'no-async-promise-executor': 'error',
     'no-await-in-loop': 'warn',
     'no-compare-neg-zero': 'error',
     'no-cond-assign': 'error',
@@ -73,6 +74,7 @@ module.exports = {
     'no-inner-declarations': 'error',
     'no-invalid-regexp': 'error',
     'no-irregular-whitespace': 'error',
+    'no-misleading-character-class': 'error',
     'no-obj-calls': 'error',
     'no-prototype-builtins': 'error', // Use https://github.com/pebble/has-own
     'no-regex-spaces': 'error',
@@ -82,6 +84,7 @@ module.exports = {
     'no-unreachable': 'error',
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
+    'require-atomic-updates': 'error',
     'use-isnan': 'error',
     'valid-typeof': 'error',
 
@@ -153,6 +156,7 @@ module.exports = {
     'prefer-promise-reject-errors': 'error',
     radix: 'warn',
     'require-await': 'off',
+    'require-unicode-regexp': 'error',
     'vars-on-top': 'off', // todo: maybe warn later
     'wrap-iife': ['error', 'inside'],
     yoda: 'error',
@@ -259,7 +263,10 @@ module.exports = {
     'operator-assignment': 'off',
     'operator-linebreak': 'off',
     'padded-blocks': ['error', 'never'],
-    'padding-line-between-statements': 'off',
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', prev: 'directive', next: '*' }
+    ],
     'quote-props': ['error', 'as-needed'],
     quotes: ['error', 'single', 'avoid-escape'],
     semi: 'error',
@@ -306,7 +313,7 @@ module.exports = {
     'prefer-numeric-literals': 'error',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
-    'prefer-template': 'warn',
+    'prefer-template': 'error',
     'require-yield': 'error',
     'rest-spread-spacing': 'error',
     'sort-imports': 'off',
