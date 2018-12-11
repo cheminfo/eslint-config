@@ -1,3 +1,12 @@
+## [1.19.1](https://github.com/cheminfo/eslint-config/compare/v1.19.0...v1.19.1) (2018-12-11)
+
+
+### Bug Fixes
+
+* disable require-unicode-regexp ([e0a5016](https://github.com/cheminfo/eslint-config/commit/e0a5016))
+
+
+
 # [1.19.0](https://github.com/cheminfo/eslint-config/compare/v1.18.0...v1.19.0) (2018-12-11)
 
 
