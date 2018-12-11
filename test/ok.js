@@ -17,6 +17,9 @@ function A() {
 
 useIt(new A());
 
+// Allow regexes without unicode flag
+useIt(/abc/);
+
 (function f() {
   return 1;
 })();
