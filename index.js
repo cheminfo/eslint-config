@@ -327,11 +327,14 @@ module.exports = {
     'import/no-internal-modules': 'off',
     'import/no-webpack-loader-syntax': 'error',
     'import/no-self-import': 'error',
+    'import/no-cycle': 'warn',
+    'import/no-useless-path-segments': 'error',
+    'import/no-relative-parent-imports': 'off',
 
     // Helpful warnings
     'import/export': 'error',
     'import/no-named-as-default': 'error',
-    'import/no-named-as-default-member': 'warn',
+    'import/no-named-as-default-member': 'error',
     'import/no-deprecated': 'warn',
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'warn',
@@ -372,6 +375,7 @@ module.exports = {
     'import/no-named-default': 'warn',
     'import/no-default-export': 'off',
     'import/no-anonymous-default-export': 'warn',
-    'import/group-exports': 'off'
+    'import/group-exports': 'off',
+    'import/dynamic-import-chunkname': 'off'
   }
 };
