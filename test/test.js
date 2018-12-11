@@ -7,9 +7,10 @@ const { CLIEngine } = require('eslint');
 
 const engine = new CLIEngine({ configFile: 'index.js' });
 
-const [okResult, notOkResult] = engine.executeOnFiles([
+const [okResult, notOkResult, jestResult] = engine.executeOnFiles([
   'test/ok.js',
-  'test/not-ok.js'
+  'test/not-ok.js',
+  'test/jest.test.js'
 ]).results;
 
 assert.strictEqual(
@@ -36,6 +37,8 @@ assert.deepStrictEqual(errors, [
   'strict',
   'wrap-iife'
 ]);
+
+assert.strictEqual(jestResult.errorCount, 1);
 
 function isError(message) {
   return message.severity === 2;
