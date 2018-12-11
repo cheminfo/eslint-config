@@ -66,28 +66,6 @@ module.exports = {
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
     'use-isnan': 'error',
-    'valid-jsdoc': [
-      'warn',
-      {
-        prefer: {
-          arg: 'param',
-          argument: 'param',
-          returns: 'return'
-        },
-        preferType: {
-          array: 'Array',
-          Boolean: 'boolean',
-          Function: 'function',
-          Number: 'number',
-          Object: 'object',
-          String: 'string'
-        },
-        requireReturn: false,
-        requireReturnType: true,
-        requireParamDescription: false,
-        requireReturnDescription: false
-      }
-    ],
     'valid-typeof': 'error',
 
     // Best Practices (http://eslint.org/docs/rules/#best-practices)
@@ -267,7 +245,6 @@ module.exports = {
     'padding-line-between-statements': 'off',
     'quote-props': ['error', 'as-needed'],
     quotes: ['error', 'single', 'avoid-escape'],
-    'require-jsdoc': 'off',
     semi: 'error',
     'semi-spacing': ['error', { after: true, before: false }],
     'semi-style': 'error',
