@@ -26,8 +26,8 @@
     "eslint-plugin-jest": ">=22.1.0"
   },
   "devDependencies": {
-    "eslint": "^5.11.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^22.1.0"
+    "eslint": "5.11.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jest": "22.1.0"
   }
 }
