@@ -1,3 +1,12 @@
+# [1.20.0](https://github.com/cheminfo/eslint-config/compare/v1.19.1...v1.20.0) (2018-12-23)
+
+
+### Features
+
+* add no-useless-catch rule ([53e85fb](https://github.com/cheminfo/eslint-config/commit/53e85fb))
+
+
+
 ## [1.19.1](https://github.com/cheminfo/eslint-config/compare/v1.19.0...v1.19.1) (2018-12-11)
 
 
