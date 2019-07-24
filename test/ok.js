@@ -1,9 +1,9 @@
 'use strict';
 
-var a, b, c;
-var x = 1;
-var y = 2;
-var z;
+let a, b, c;
+let x = 1;
+let y = 2;
+let z;
 useIt(x, y, z);
 
 a = 1;

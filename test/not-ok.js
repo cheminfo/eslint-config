@@ -1,7 +1,7 @@
 
 console.log('abc');
 
-var a;
+let a;
 
 var x = "b";
 var x;
@@ -11,14 +11,12 @@ x = {
   'useless': 'quotes'
 };
 
-var y = 1, z;
+let y = 1, z;
 useIt(y, z);
 
 function A() {
   this.x = 1;
 }
-
-new A();
 
 (function f() {
     return 1;

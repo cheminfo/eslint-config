@@ -18,6 +18,24 @@ extends: cheminfo
 
 You can then customize the config for your project by changing rules in this file.
 
-## Using React?
+## Extensions of this config
 
-Check out our extension at https://github.com/neptunejs/eslint-config-neptune-react
+### TypeScript
+
+https://github.com/cheminfo/eslint-config-cheminfo-typescript
+
+## React
+
+https://github.com/neptunejs/eslint-config-neptune-react
+
+## FAQ
+
+### `jest/expect-expect` is flagging my test but I assert in an external function
+
+See https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/expect-expect.md#assertfunctionnames
+
+You can override this by adding a comment like this at the top of your test file:
+
+```js
+/* eslint jest/expect-expect: ["error", { "assertFunctionNames": ["expect", "functionThatCallsExpect"] }] */
+```
