@@ -59,6 +59,17 @@ module.exports = {
     },
   ],
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        arrowParens: 'always',
+        semi: true,
+        singleQuote: true,
+        tabWidth: 2,
+        trailingComma: 'all',
+      },
+    ],
+
     // Possible Errors (http://eslint.org/docs/rules/#possible-errors)
     'for-direction': 'error',
     'getter-return': 'error',
