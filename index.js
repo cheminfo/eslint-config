@@ -214,7 +214,7 @@ module.exports = {
 
     // Stylistic Issues (https://eslint.org/docs/rules/#stylistic-issues)
     // Many are unconfigured because we use Prettier
-    camelcase: 'error',
+    camelcase: ['error', { properties: 'always', ignoreDestructuring: true }],
     'capitalized-comments': 'off',
     'no-array-constructor': 'error',
     'no-mixed-spaces-and-tabs': 'error',
