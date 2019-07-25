@@ -18,6 +18,17 @@ extends: cheminfo
 
 You can then customize the config for your project by changing rules in this file.
 
+Create ESLint scripts in your `package.json`:
+
+```json
+{
+  "scripts": {
+    "eslint": "eslint src --cache",
+    "eslint-fix": "npm run eslint -- --fix"
+  }
+}
+```
+
 ## Extensions of this config
 
 ### TypeScript
@@ -27,6 +38,16 @@ https://github.com/cheminfo/eslint-config-cheminfo-typescript
 ## React
 
 https://github.com/cheminfo/eslint-config-cheminfo-react
+
+## TypeScript and React
+
+You can extend both of the above configurations as they are compatible between each other:
+
+```yml
+extends:
+  - cheminfo-typescript
+  - cheminfo-react
+```
 
 ## FAQ
 
