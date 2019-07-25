@@ -26,7 +26,7 @@ https://github.com/cheminfo/eslint-config-cheminfo-typescript
 
 ## React
 
-https://github.com/neptunejs/eslint-config-neptune-react
+https://github.com/cheminfo/eslint-config-cheminfo-react
 
 ## FAQ
 
