@@ -1,3 +1,12 @@
+## [2.0.3](https://github.com/cheminfo/eslint-config/compare/v2.0.2...v2.0.3) (2019-07-26)
+
+
+### Bug Fixes
+
+* disable bogus require-atomic-updates rule ([9bfb504](https://github.com/cheminfo/eslint-config/commit/9bfb504))
+
+
+
 ## [2.0.2](https://github.com/cheminfo/eslint-config/compare/v2.0.1...v2.0.2) (2019-07-24)
 
 
