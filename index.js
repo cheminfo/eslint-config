@@ -104,7 +104,7 @@ module.exports = {
     'no-unreachable': 'error',
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
-    'require-atomic-updates': 'error',
+    'require-atomic-updates': 'off', // See https://github.com/eslint/eslint/issues/11899
     'use-isnan': 'error',
     'valid-typeof': 'error',
 
