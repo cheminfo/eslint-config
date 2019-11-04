@@ -1,3 +1,12 @@
+## [2.0.4](https://github.com/cheminfo/eslint-config/compare/v2.0.3...v2.0.4) (2019-11-04)
+
+
+### Bug Fixes
+
+* update jest plugin to latest version ([3a4193e](https://github.com/cheminfo/eslint-config/commit/3a4193edadfb4477013151466a0d9b5d90ba69a7))
+
+
+
 ## [2.0.3](https://github.com/cheminfo/eslint-config/compare/v2.0.2...v2.0.3) (2019-07-26)
 
 
