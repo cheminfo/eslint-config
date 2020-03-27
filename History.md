@@ -1,3 +1,17 @@
+# [3.0.0](https://github.com/cheminfo/eslint-config/compare/v2.0.5...v3.0.0) (2020-03-27)
+
+
+### Features
+
+* force imports to be alphabetized ([38a6ab1](https://github.com/cheminfo/eslint-config/commit/38a6ab101191478d90ab1f5dc2142ce277cf77a5))
+
+
+### BREAKING CHANGES
+
+* imports must now be alphabetized in each group
+
+
+
 ## [2.0.5](https://github.com/cheminfo/eslint-config/compare/v2.0.4...v2.0.5) (2020-03-27)
 
 
