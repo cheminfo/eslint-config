@@ -308,6 +308,9 @@ module.exports = {
           'index',
         ],
         'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+        },
       },
     ],
     'import/newline-after-import': 'error',
@@ -315,11 +318,11 @@ module.exports = {
     'import/max-dependencies': 'off',
     'import/no-unassigned-import': [
       'warn',
-      { allow: ['make-promises-safe', 'node-report'] },
+      { allow: ['make-promises-safe', 'node-report', 'reflect-metadata'] },
     ],
     'import/no-named-default': 'error',
     'import/no-default-export': 'off',
-    'import/no-anonymous-default-export': 'warn',
+    'import/no-anonymous-default-export': 'off',
     'import/group-exports': 'off',
     'import/dynamic-import-chunkname': 'off',
   },
