@@ -1,3 +1,7 @@
+# [4.0.0](https://github.com/cheminfo/eslint-config/compare/v3.0.0...v4.0.0) (2020-05-25)
+
+
+
 # [3.0.0](https://github.com/cheminfo/eslint-config/compare/v2.0.5...v3.0.0) (2020-03-27)
 
 
