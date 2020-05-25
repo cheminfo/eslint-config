@@ -203,19 +203,6 @@ module.exports = {
     'no-unused-vars': 'error',
     'no-use-before-define': 'off',
 
-    // Node.js and CommonJS (https://eslint.org/docs/rules/#nodejs-and-commonjs)
-    'callback-return': 'off',
-    'global-require': 'off',
-    'handle-callback-err': ['error', '^(err|error)$'],
-    'no-buffer-constructor': 'error',
-    'no-mixed-requires': 'error',
-    'no-new-require': 'error',
-    'no-path-concat': 'error',
-    'no-process-env': 'warn',
-    'no-process-exit': 'off',
-    'no-restricted-modules': 'off',
-    'no-sync': 'off',
-
     // Stylistic Issues (https://eslint.org/docs/rules/#stylistic-issues)
     // Many are unconfigured because we use Prettier
     camelcase: ['error', { properties: 'always', ignoreDestructuring: true }],
