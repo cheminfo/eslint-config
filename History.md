@@ -1,3 +1,12 @@
+# [4.1.0](https://github.com/cheminfo/eslint-config/compare/v4.0.0...v4.1.0) (2020-07-16)
+
+
+### Features
+
+* enable es2020 and move unassigned-import config from react ([51a641f](https://github.com/cheminfo/eslint-config/commit/51a641f16c496c64b64976b8a7fe08e4a71d4f5c))
+
+
+
 # [4.0.0](https://github.com/cheminfo/eslint-config/compare/v3.0.0...v4.0.0) (2020-05-25)
 
 
