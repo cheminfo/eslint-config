@@ -6,7 +6,7 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    ecmaVersion: '2019',
+    ecmaVersion: '2020',
     sourceType: 'script',
   },
   extends: ['plugin:prettier/recommended'],
@@ -305,7 +305,15 @@ module.exports = {
     'import/max-dependencies': 'off',
     'import/no-unassigned-import': [
       'warn',
-      { allow: ['make-promises-safe', 'node-report', 'reflect-metadata'] },
+      {
+        allow: [
+          'make-promises-safe',
+          'node-report',
+          'reflect-metadata',
+          '**/*.css',
+          'react-app-polyfill/*',
+        ],
+      },
     ],
     'import/no-named-default': 'error',
     'import/no-default-export': 'off',
