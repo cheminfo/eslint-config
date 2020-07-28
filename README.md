@@ -5,7 +5,7 @@ Shared ESLint config for cheminfo and ml.js projects.
 ## Installation
 
 ```console
-npx install-peerdeps --dev eslint-config-cheminfo
+npm i -D eslint-config-cheminfo eslint prettier
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Create ESLint scripts in your `package.json`:
 ```json
 {
   "scripts": {
-    "eslint": "eslint src --cache",
+    "eslint": "eslint src",
     "eslint-fix": "npm run eslint -- --fix"
   }
 }
