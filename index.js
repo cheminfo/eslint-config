@@ -11,6 +11,7 @@ module.exports = {
   },
   extends: ['plugin:prettier/recommended'],
   plugins: ['import', 'jest'],
+  reportUnusedDisableDirectives: true,
   overrides: [
     {
       files: ['**/__tests__/**/*.{js,jsx,ts,tsx}', '*.test.{js,jsx,ts,tsx}'],
