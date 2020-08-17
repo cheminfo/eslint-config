@@ -1,3 +1,12 @@
+## [5.1.1](https://github.com/cheminfo/eslint-config/compare/v5.1.0...v5.1.1) (2020-08-17)
+
+
+### Bug Fixes
+
+* disable import/no-cycle rule ([f132ef7](https://github.com/cheminfo/eslint-config/commit/f132ef7cea874c6a0a870f82b3049d7280f84269))
+
+
+
 # [5.1.0](https://github.com/cheminfo/eslint-config/compare/v5.0.0...v5.1.0) (2020-08-17)
 
 
