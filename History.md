@@ -1,3 +1,17 @@
+# [5.1.0](https://github.com/cheminfo/eslint-config/compare/v5.0.0...v5.1.0) (2020-08-17)
+
+
+### Bug Fixes
+
+* disable no-shadow rule ([2eb4aa8](https://github.com/cheminfo/eslint-config/commit/2eb4aa8bf367ec743f06ae464be826e93d86d108))
+
+
+### Features
+
+* enable reportUnusedDisableDirectives ([4eceed7](https://github.com/cheminfo/eslint-config/commit/4eceed7410a17af2f6f89f0ecc433117a8770114))
+
+
+
 # [5.0.0](https://github.com/cheminfo/eslint-config/compare/v4.1.0...v5.0.0) (2020-07-28)
 
 
