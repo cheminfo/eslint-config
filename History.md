@@ -1,3 +1,12 @@
+## [5.1.3](https://github.com/cheminfo/eslint-config/compare/v5.1.2...v5.1.3) (2020-09-08)
+
+
+### Bug Fixes
+
+* use endOfLine: auto in Prettier config ([8a1d512](https://github.com/cheminfo/eslint-config/commit/8a1d512683a50f4068b274ca42c9651c8342b938))
+
+
+
 ## [5.1.2](https://github.com/cheminfo/eslint-config/compare/v5.1.1...v5.1.2) (2020-09-04)
 
 
