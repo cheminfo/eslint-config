@@ -134,6 +134,7 @@ module.exports = {
     'dot-location': ['error', 'property'],
     'dot-notation': 'error',
     eqeqeq: ['error', 'allow-null'],
+    'grouped-accessor-pairs': 'error',
     'guard-for-in': 'off',
     'no-alert': 'error',
     'no-caller': 'error',
