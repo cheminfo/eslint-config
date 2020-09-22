@@ -129,6 +129,7 @@ module.exports = {
     'consistent-return': 'off',
     curly: ['error', 'multi-line', 'consistent'],
     'default-case': 'error',
+    'default-case-last': 'warn',
     'dot-location': ['error', 'property'],
     'dot-notation': 'error',
     eqeqeq: ['error', 'allow-null'],
