@@ -80,7 +80,7 @@ module.exports = {
     'for-direction': 'error',
     'getter-return': 'error',
     'no-async-promise-executor': 'error',
-    'no-await-in-loop': 'warn',
+    'no-await-in-loop': 'off',
     'no-compare-neg-zero': 'error',
     'no-cond-assign': 'error',
     'no-console': 'error',
