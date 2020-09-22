@@ -136,6 +136,7 @@ module.exports = {
     eqeqeq: ['error', 'allow-null'],
     'grouped-accessor-pairs': 'error',
     'guard-for-in': 'off',
+    'max-classes-per-file': 'off',
     'no-alert': 'error',
     'no-caller': 'error',
     'no-case-declarations': 'error',
