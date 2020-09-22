@@ -1,3 +1,29 @@
+# [5.2.0](https://github.com/cheminfo/eslint-config/compare/v5.1.3...v5.2.0) (2020-09-22)
+
+
+### Bug Fixes
+
+* disable no-await-in-loop ([075e0f1](https://github.com/cheminfo/eslint-config/commit/075e0f1fd0fd8e2efdc18f93099f105314fb5cf4))
+* disable no-useless-constructor rule ([24af921](https://github.com/cheminfo/eslint-config/commit/24af921d73cccfcf43079e35bc1f15497ca70c91))
+
+
+### Features
+
+* add default-case-last rule ([ff93b88](https://github.com/cheminfo/eslint-config/commit/ff93b88602dce4dfb87957220e72764d192f3d9b))
+* add default-param-last rule ([2652bbe](https://github.com/cheminfo/eslint-config/commit/2652bbe2231c2df1d800f58af1269591d6894d6b))
+* add grouped-accessor-pairs rule ([b7d1596](https://github.com/cheminfo/eslint-config/commit/b7d15962dc2db181eaf32808f7c81dac1998fba7))
+* add no-constructor-return rule (warn) ([0d202f6](https://github.com/cheminfo/eslint-config/commit/0d202f6539b60d3b8fa80be333dcd251890c12c1))
+* add no-dupe-else-if rule ([57c33f2](https://github.com/cheminfo/eslint-config/commit/57c33f234cc8f40abba0b9d37765f9eaa0363b3a))
+* add no-unreachable-loop rule ([a578da4](https://github.com/cheminfo/eslint-config/commit/a578da4f959c655b65e06f7690098cf1e381bf00))
+* add no-useless-backreference rule ([7bf84ed](https://github.com/cheminfo/eslint-config/commit/7bf84edb6700f35fe2f0ff041108d0d744f0d4a9))
+* add prefer-regex-literals rule ([3219fe9](https://github.com/cheminfo/eslint-config/commit/3219fe9ff41d63a70c6ccc8a947cbd403da22705))
+* enable no-loss-of-precision rule ([15b1e49](https://github.com/cheminfo/eslint-config/commit/15b1e49199b9e64d2778e21665c6410922a0794b))
+* enable no-promise-executor-return rule ([c9e67b9](https://github.com/cheminfo/eslint-config/commit/c9e67b9d3c0f0e313a0c811117cea707b10ccdef))
+* enable no-setter-return rule ([5705be0](https://github.com/cheminfo/eslint-config/commit/5705be0f2646d6ed54cf5c1e7b702b06ebb37a2d))
+* support ecmaVersion 2021 ([56277ad](https://github.com/cheminfo/eslint-config/commit/56277ad76836d8c15aaf6177338227e93c4cdf9b))
+
+
+
 ## [5.1.3](https://github.com/cheminfo/eslint-config/compare/v5.1.2...v5.1.3) (2020-09-08)
 
 
