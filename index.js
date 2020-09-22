@@ -130,6 +130,7 @@ module.exports = {
     curly: ['error', 'multi-line', 'consistent'],
     'default-case': 'error',
     'default-case-last': 'warn',
+    'default-param-last': 'error',
     'dot-location': ['error', 'property'],
     'dot-notation': 'error',
     eqeqeq: ['error', 'allow-null'],
