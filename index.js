@@ -193,6 +193,7 @@ module.exports = {
     'no-with': 'error',
     'prefer-named-capture-group': 'warn',
     'prefer-promise-reject-errors': 'error',
+    'prefer-regex-literals': 'error',
     radix: 'warn',
     'require-await': 'off',
     'require-unicode-regexp': 'off',
