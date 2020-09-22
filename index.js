@@ -140,6 +140,7 @@ module.exports = {
     'no-alert': 'error',
     'no-caller': 'error',
     'no-case-declarations': 'error',
+    'no-constructor-return': 'warn',
     'no-div-regex': 'error',
     'no-else-return': 'off',
     'no-empty-function': 'warn',
