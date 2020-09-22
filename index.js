@@ -115,6 +115,7 @@ module.exports = {
     'no-unreachable-loop': 'error',
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
+    'no-useless-backreference': 'error',
     'require-atomic-updates': 'off', // See https://github.com/eslint/eslint/issues/11899
     'use-isnan': 'error',
     'valid-typeof': 'error',
