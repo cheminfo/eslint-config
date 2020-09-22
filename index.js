@@ -244,7 +244,7 @@ module.exports = {
     'no-new-symbol': 'error',
     'no-this-before-super': 'error',
     'no-useless-computed-key': 'error',
-    'no-useless-constructor': 'error',
+    'no-useless-constructor': 'off',
     'no-useless-rename': 'error',
     'no-var': 'error',
     'object-shorthand': 'off', // complex
