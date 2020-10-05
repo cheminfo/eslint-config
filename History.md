@@ -1,3 +1,12 @@
+## [5.2.1](https://github.com/cheminfo/eslint-config/compare/v5.2.0...v5.2.1) (2020-10-05)
+
+
+### Bug Fixes
+
+* disable no-void rule ([090f79a](https://github.com/cheminfo/eslint-config/commit/090f79a37de4971207abd3366f9a40f1a462826d))
+
+
+
 # [5.2.0](https://github.com/cheminfo/eslint-config/compare/v5.1.3...v5.2.0) (2020-09-22)
 
 
