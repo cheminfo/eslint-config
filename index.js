@@ -188,7 +188,8 @@ module.exports = {
     'no-useless-concat': 'error',
     'no-useless-escape': 'error',
     'no-useless-return': 'off',
-    'no-void': 'error',
+    // Conflicts with typescript-eslint's no-floating-promises rule.
+    'no-void': 'off',
     'no-warning-comments': 'warn',
     'no-with': 'error',
     'prefer-named-capture-group': 'warn',
