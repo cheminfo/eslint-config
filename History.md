@@ -1,3 +1,12 @@
+## [5.2.2](https://github.com/cheminfo/eslint-config/compare/v5.2.1...v5.2.2) (2020-10-07)
+
+
+### Bug Fixes
+
+* disable jest/expect-expect rule ([b7b2242](https://github.com/cheminfo/eslint-config/commit/b7b2242dc96867ed7f399e6e511ce94104317221))
+
+
+
 ## [5.2.1](https://github.com/cheminfo/eslint-config/compare/v5.2.0...v5.2.1) (2020-10-05)
 
 
