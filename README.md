@@ -48,15 +48,3 @@ extends:
   - cheminfo-typescript
   - cheminfo-react
 ```
-
-## FAQ
-
-### `jest/expect-expect` is flagging my test but I assert in an external function
-
-See https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/expect-expect.md#assertfunctionnames
-
-You can override this by adding a comment like this at the top of your test file:
-
-```js
-/* eslint jest/expect-expect: ["error", { "assertFunctionNames": ["expect", "functionThatCallsExpect"] }] */
-```

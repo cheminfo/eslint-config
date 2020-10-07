@@ -21,7 +21,7 @@ module.exports = {
       rules: {
         // Jest plugin (https://github.com/jest-community/eslint-plugin-jest)
         'jest/consistent-test-it': 'error',
-        'jest/expect-expect': 'error',
+        'jest/expect-expect': 'off',
         'jest/lowercase-name': 'off',
         'jest/no-alias-methods': 'error',
         'jest/no-commented-out-tests': 'error',
