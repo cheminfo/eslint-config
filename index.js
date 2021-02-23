@@ -9,8 +9,7 @@ module.exports = {
     ecmaVersion: '2021',
     sourceType: 'script',
   },
-  extends: ['plugin:prettier/recommended'],
-  plugins: ['import', 'jest'],
+  plugins: ['import', 'jest', 'prettier'],
   reportUnusedDisableDirectives: true,
   overrides: [
     {

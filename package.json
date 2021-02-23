@@ -21,10 +21,9 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config#readme",
   "dependencies": {
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^24.0.2",
-    "eslint-plugin-prettier": "^3.1.4"
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.5",
+    "eslint-plugin-prettier": "^3.3.1"
   },
   "peerDependencies": {
     "eslint": ">=7.8.0",
