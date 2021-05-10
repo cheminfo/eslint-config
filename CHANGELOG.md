@@ -1,5 +1,12 @@
 # Changelog
 
+### [5.2.4](https://www.github.com/cheminfo/eslint-config/compare/v5.2.3...v5.2.4) (2021-05-10)
+
+
+### Bug Fixes
+
+* remove Prettier ([d50484f](https://www.github.com/cheminfo/eslint-config/commit/d50484f2e4e99ea40db396b6637984bba52afac8))
+
 ### [5.2.3](https://github.com/cheminfo/eslint-config/compare/v5.2.2...v5.2.3) (2021-02-23)
 
 ## [5.2.2](https://github.com/cheminfo/eslint-config/compare/v5.2.1...v5.2.2) (2020-10-07)
@@ -531,6 +538,3 @@
 ### Features
 
 * first release ([8d2936b](https://github.com/cheminfo/eslint-config/commit/8d2936b))
-
-
-
