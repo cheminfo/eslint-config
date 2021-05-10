@@ -9,7 +9,7 @@ module.exports = {
     ecmaVersion: '2021',
     sourceType: 'script',
   },
-  plugins: ['import', 'jest', 'prettier'],
+  plugins: ['import', 'jest'],
   reportUnusedDisableDirectives: true,
   overrides: [
     {
@@ -63,18 +63,6 @@ module.exports = {
     },
   ],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        arrowParens: 'always',
-        semi: true,
-        singleQuote: true,
-        tabWidth: 2,
-        trailingComma: 'all',
-        endOfLine: 'auto',
-      },
-    ],
-
     // Possible Errors (http://eslint.org/docs/rules/#possible-errors)
     'for-direction': 'error',
     'getter-return': 'error',

@@ -30,13 +30,6 @@ eslint
       'no-var',
       'one-var',
       'one-var-declaration-per-line',
-      'prettier/prettier',
-      'prettier/prettier',
-      'prettier/prettier',
-      'prettier/prettier',
-      'prettier/prettier',
-      'prettier/prettier',
-      'prettier/prettier',
       'strict',
       'wrap-iife',
     ]);

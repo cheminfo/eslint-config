@@ -5,7 +5,7 @@ Shared ESLint config for cheminfo and ml.js projects.
 ## Installation
 
 ```console
-npm i -D eslint-config-cheminfo eslint prettier
+npm i -D eslint-config-cheminfo eslint
 ```
 
 ## Usage
