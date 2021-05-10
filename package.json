@@ -28,7 +28,8 @@
     "eslint": ">=7.8.0"
   },
   "devDependencies": {
-    "eslint": "7.8.0"
+    "eslint": "7.8.0",
+    "prettier": "^2.3.0"
   },
   "prettier": {
     "arrowParens": "always",
