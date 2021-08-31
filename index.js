@@ -209,6 +209,7 @@ module.exports = {
     // Many are unconfigured because we use Prettier
     camelcase: ['error', { properties: 'always', ignoreDestructuring: true }],
     'capitalized-comments': 'off',
+    'func-names': 'error',
     'no-array-constructor': 'error',
     'no-mixed-spaces-and-tabs': 'error',
     'no-new-object': 'error',
