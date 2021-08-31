@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.3.0](https://www.github.com/cheminfo/eslint-config/compare/v5.2.4...v5.3.0) (2021-08-31)
+
+
+### Features
+
+* enable func-names rule ([3b90379](https://www.github.com/cheminfo/eslint-config/commit/3b90379fde66e7d5fa8ff07ee7d93f5a1c49dd4e))
+
 ### [5.2.4](https://www.github.com/cheminfo/eslint-config/compare/v5.2.3...v5.2.4) (2021-05-10)
 
 
