@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.4.0](https://www.github.com/cheminfo/eslint-config/compare/v5.3.0...v5.4.0) (2021-09-07)
+
+
+### Features
+
+* update dependencies to have BigInt64Array ([0cb305a](https://www.github.com/cheminfo/eslint-config/commit/0cb305a8c822d9f0db3a846386c5c244a75a52c5))
+
 ## [5.3.0](https://www.github.com/cheminfo/eslint-config/compare/v5.2.4...v5.3.0) (2021-08-31)
 
 
