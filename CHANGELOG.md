@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.5.0](https://www.github.com/cheminfo/eslint-config/compare/v5.4.0...v5.5.0) (2021-09-08)
+
+
+### Features
+
+* add support for all ES2021 globals ([805bd82](https://www.github.com/cheminfo/eslint-config/commit/805bd821ffd5437d9248bc2b2cee3916911849ff))
+
 ## [5.4.0](https://www.github.com/cheminfo/eslint-config/compare/v5.3.0...v5.4.0) (2021-09-07)
 
 
