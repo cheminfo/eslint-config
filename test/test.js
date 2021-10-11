@@ -34,7 +34,7 @@ eslint
       'wrap-iife',
     ]);
 
-    assert.strictEqual(jestResult.errorCount, 1);
+    assert.strictEqual(jestResult.errorCount, 1, util.inspect(jestResult));
   })
   .catch((error) => {
     console.error(error);

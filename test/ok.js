@@ -34,6 +34,9 @@ function check(a) {
 }
 check('test');
 
+let bigint = new BigInt64Array(1);
+useIt(bigint);
+
 // use this function to mark a variable as used
 function useIt(...vals) {
   return vals;
