@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.6.0](https://www.github.com/cheminfo/eslint-config/compare/v5.5.0...v5.6.0) (2021-10-11)
+
+
+### Features
+
+* update eslint-plugin-jest ([35edc31](https://www.github.com/cheminfo/eslint-config/commit/35edc3185455da6fbc04b1dd96307ab2e2431a4a))
+
 ## [5.5.0](https://www.github.com/cheminfo/eslint-config/compare/v5.4.0...v5.5.0) (2021-09-08)
 
 
