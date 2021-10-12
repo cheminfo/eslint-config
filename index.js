@@ -4,7 +4,7 @@ module.exports = {
   env: {
     es6: true,
     es2021: true,
-    node: true,
+    'shared-node-browser': true,
   },
   parserOptions: {
     ecmaVersion: '2021',
@@ -17,6 +17,7 @@ module.exports = {
       files: ['**/__tests__/**/*.{js,jsx,ts,tsx}', '*.test.{js,jsx,ts,tsx}'],
       env: {
         jest: true,
+        node: true,
       },
       rules: {
         // Jest plugin (https://github.com/jest-community/eslint-plugin-jest)
