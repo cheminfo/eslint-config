@@ -1,5 +1,22 @@
 # Changelog
 
+## [6.0.0](https://www.github.com/cheminfo/eslint-config/compare/v5.6.0...v6.0.0) (2021-10-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* By default, only globals shared between Node.js and browsers are enabled (except in Jest tests). To support Node.js globals everywhere as before, add `env: { node: true }` to your config.
+
+### Features
+
+* only support globals shared between node and browsers by default ([79581cd](https://www.github.com/cheminfo/eslint-config/commit/79581cd8a7872d22e4103afa569cef06f8495a68))
+
+
+### Bug Fixes
+
+* mark eslint plugins as peer dependencies ([a0682cb](https://www.github.com/cheminfo/eslint-config/commit/a0682cba1dd34d3fd35615f30ec2e5d420fd1589))
+* update dependencies ([c22e944](https://www.github.com/cheminfo/eslint-config/commit/c22e944c753679d2f340f9ab9dba4efba1664acd))
+
 ## [5.6.0](https://www.github.com/cheminfo/eslint-config/compare/v5.5.0...v5.6.0) (2021-10-11)
 
 
