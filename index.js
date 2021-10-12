@@ -14,6 +14,12 @@ module.exports = {
   reportUnusedDisableDirectives: true,
   overrides: [
     {
+      files: ['*.config.{js,ts}'],
+      env: {
+        node: true,
+      },
+    },
+    {
       files: ['**/__tests__/**/*.{js,jsx,ts,tsx}', '*.test.{js,jsx,ts,tsx}'],
       env: {
         jest: true,
