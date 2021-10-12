@@ -1,5 +1,12 @@
 # Changelog
 
+### [6.0.1](https://www.github.com/cheminfo/eslint-config/compare/v6.0.0...v6.0.1) (2021-10-12)
+
+
+### Bug Fixes
+
+* add node env to config files ([d21b0f9](https://www.github.com/cheminfo/eslint-config/commit/d21b0f9eec9f73e793212197e5f707ef6cf7a2f9))
+
 ## [6.0.0](https://www.github.com/cheminfo/eslint-config/compare/v5.6.0...v6.0.0) (2021-10-12)
 
 
