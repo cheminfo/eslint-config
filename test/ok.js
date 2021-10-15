@@ -1,5 +1,3 @@
-'use strict';
-
 let a, b, c;
 let x = 1;
 let y = 2;

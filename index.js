@@ -8,19 +8,40 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: '2021',
-    sourceType: 'script',
+    sourceType: 'module',
   },
   plugins: ['import', 'jest'],
   reportUnusedDisableDirectives: true,
   overrides: [
     {
-      files: ['*.config.{js,ts}'],
+      // .cjs files are always for Node.js and must be of type script.
+      files: ['*.cjs'],
+      parserOptions: {
+        sourceType: 'script',
+      },
       env: {
         node: true,
       },
     },
     {
-      files: ['**/__tests__/**/*.{js,jsx,ts,tsx}', '*.test.{js,jsx,ts,tsx}'],
+      // .mjs files must be of type module.
+      files: ['*.mjs'],
+      parserOptions: {
+        sourceType: 'module',
+      },
+    },
+    {
+      // Configuration files are usually for Node.js modules.
+      files: ['*.config.{js,cjs,mjs,ts,cts,mts}'],
+      env: {
+        node: true,
+      },
+    },
+    {
+      files: [
+        '**/__tests__/**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts}',
+        '*.test.{js,jsx,cjs,mjs,ts,tsx,cts,mts}',
+      ],
       env: {
         jest: true,
         node: true,
