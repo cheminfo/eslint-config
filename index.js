@@ -7,7 +7,7 @@ module.exports = {
     'shared-node-browser': true,
   },
   parserOptions: {
-    ecmaVersion: '2021',
+    ecmaVersion: '2022',
     sourceType: 'module',
   },
   plugins: ['import', 'jest'],
