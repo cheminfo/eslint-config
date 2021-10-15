@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.0](https://www.github.com/cheminfo/eslint-config/compare/v7.0.0...v7.1.0) (2021-10-15)
+
+
+### Features
+
+* add jsdoc config ([475552e](https://www.github.com/cheminfo/eslint-config/commit/475552e7968e30f0c654982b7e0828c7a4f13b2f))
+
 ## [7.0.0](https://www.github.com/cheminfo/eslint-config/compare/v6.0.1...v7.0.0) (2021-10-15)
 
 
