@@ -1,5 +1,20 @@
 # Changelog
 
+## [7.0.0](https://www.github.com/cheminfo/eslint-config/compare/v6.0.1...v7.0.0) (2021-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* default sourceType to module and support .mjs and .cjs extensions
+* update to ESLint v8
+
+### Features
+
+* allow empty functions in tests ([a53b330](https://www.github.com/cheminfo/eslint-config/commit/a53b3308f615683d07eea585b76edde194d018af))
+* default sourceType to module and support .mjs and .cjs extensions ([f357169](https://www.github.com/cheminfo/eslint-config/commit/f357169e065ad308d0cb6187bd1bc2367891a6dd))
+* support ecmaVersion 2022 ([f22dff0](https://www.github.com/cheminfo/eslint-config/commit/f22dff068ac481e09c19ba31edca10c99be0b1b7))
+* update to ESLint v8 ([716eaab](https://www.github.com/cheminfo/eslint-config/commit/716eaab4c09eee9a7def59fd02e0d902d9de4204))
+
 ### [6.0.1](https://www.github.com/cheminfo/eslint-config/compare/v6.0.0...v6.0.1) (2021-10-12)
 
 
