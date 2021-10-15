@@ -1,5 +1,12 @@
 # Changelog
 
+### [7.1.1](https://www.github.com/cheminfo/eslint-config/compare/v7.1.0...v7.1.1) (2021-10-15)
+
+
+### Bug Fixes
+
+* use temporary hack to install jsdoc plugin ([65a71da](https://www.github.com/cheminfo/eslint-config/commit/65a71da66bec39eecfbee418ca65b914cbb901bb))
+
 ## [7.1.0](https://www.github.com/cheminfo/eslint-config/compare/v7.0.0...v7.1.0) (2021-10-15)
 
 
