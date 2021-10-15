@@ -4,7 +4,8 @@
   "description": "Shared ESLint config for cheminfo and ml.js projects",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "jsdoc.js"
   ],
   "scripts": {
     "test": "node test/test.js"
@@ -23,12 +24,14 @@
   "peerDependencies": {
     "eslint": "^8.0.1",
     "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jest": "^25.2.1"
+    "eslint-plugin-jest": "^25.2.1",
+    "eslint-plugin-jsdoc": "^36.1.1"
   },
   "devDependencies": {
     "eslint": "8.0.1",
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-jest": "25.2.1",
+    "eslint-plugin-jsdoc": "36.1.1",
     "prettier": "^2.4.1"
   }
 }

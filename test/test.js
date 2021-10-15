@@ -4,7 +4,7 @@ const assert = require('assert');
 const util = require('util');
 const { ESLint } = require('eslint');
 
-const eslint = new ESLint({ overrideConfigFile: 'index.js' });
+const eslint = new ESLint({ overrideConfigFile: 'eslintrc.test.yml' });
 
 eslint
   .lintFiles(['test/ok.js', 'test/not-ok.js', 'test/jest.test.js'])
@@ -14,7 +14,13 @@ eslint
     assert.strictEqual(
       okResult.errorCount,
       0,
-      'ok.js should have no error: ' + util.format(okResult),
+      'ok.js should have no error: ' + util.format(okResult.messages),
+    );
+
+    assert.strictEqual(
+      okResult.warningCount,
+      0,
+      'ok.js should have no warnings: ' + util.format(okResult.messages),
     );
 
     const errors = notOkResult.messages

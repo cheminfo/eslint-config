@@ -29,8 +29,6 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: 'https://registry.npmjs.org'
         if: ${{ steps.release.outputs.release_created }}
-      - run: npm install
-        if: ${{ steps.release.outputs.release_created }}
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_BOT_TOKEN }}
