@@ -47,6 +47,9 @@ module.exports = {
         node: true,
       },
       rules: {
+        // Allow empty functions in tests.
+        'no-empty-function': 'off',
+
         // Jest plugin (https://github.com/jest-community/eslint-plugin-jest)
         'jest/consistent-test-it': 'error',
         'jest/expect-expect': 'off',
