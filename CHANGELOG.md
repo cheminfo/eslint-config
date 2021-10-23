@@ -1,5 +1,12 @@
 # Changelog
 
+### [7.1.2](https://www.github.com/cheminfo/eslint-config/compare/v7.1.1...v7.1.2) (2021-10-23)
+
+
+### Bug Fixes
+
+* update eslint-plugin-jsdoc ([5a84920](https://www.github.com/cheminfo/eslint-config/commit/5a849205f4f95e4c5cb321d498d295a64b491854))
+
 ### [7.1.1](https://www.github.com/cheminfo/eslint-config/compare/v7.1.0...v7.1.1) (2021-10-15)
 
 
