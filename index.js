@@ -90,7 +90,7 @@ module.exports = {
     },
   ],
   rules: {
-    // Possible Errors (http://eslint.org/docs/rules/#possible-errors)
+    //#region Possible Problems (https://eslint.org/docs/rules/#possible-problems)
     'for-direction': 'error',
     'getter-return': 'error',
     'no-async-promise-executor': 'error',
@@ -133,8 +133,9 @@ module.exports = {
     'require-atomic-updates': 'off', // See https://github.com/eslint/eslint/issues/11899
     'use-isnan': 'error',
     'valid-typeof': 'error',
+    //#endregion
 
-    // Best Practices (http://eslint.org/docs/rules/#best-practices)
+    //#region Suggestions (https://eslint.org/docs/rules/#suggestions)
     'accessor-pairs': 'off',
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
@@ -150,11 +151,13 @@ module.exports = {
     eqeqeq: ['error', 'allow-null'],
     'grouped-accessor-pairs': 'error',
     'guard-for-in': 'off',
+    'init-declarations': 'off',
     'max-classes-per-file': 'off',
     'no-alert': 'error',
     'no-caller': 'error',
     'no-case-declarations': 'error',
     'no-constructor-return': 'warn',
+    'no-delete-var': 'error',
     'no-div-regex': 'error',
     'no-else-return': 'off',
     'no-empty-function': 'warn',
@@ -172,6 +175,7 @@ module.exports = {
     'no-implied-eval': 'error',
     'no-invalid-this': 'off',
     'no-iterator': 'error',
+    'no-label-var': 'error',
     'no-labels': 'off',
     'no-lone-blocks': 'error',
     'no-loop-func': 'error',
@@ -186,6 +190,7 @@ module.exports = {
     'no-param-reassign': 'off',
     'no-proto': 'error',
     'no-redeclare': 'error',
+    'no-restricted-globals': 'off',
     'no-restricted-properties': 'off',
     'no-return-assign': 'error',
     'no-return-await': 'error',
@@ -193,10 +198,17 @@ module.exports = {
     'no-self-assign': 'error',
     'no-self-compare': 'error',
     'no-sequences': 'error',
+    'no-shadow': 'off',
+    'no-shadow-restricted-names': 'error',
     'no-throw-literal': 'error',
+    'no-undef': 'error',
+    'no-undef-init': 'error',
+    'no-undefined': 'off',
     'no-unmodified-loop-condition': 'error',
     'no-unused-expressions': 'error',
     'no-unused-labels': 'error',
+    'no-unused-vars': 'error',
+    'no-use-before-define': 'off',
     'no-useless-call': 'error',
     'no-useless-catch': 'error',
     'no-useless-concat': 'error',
@@ -212,27 +224,13 @@ module.exports = {
     radix: 'warn',
     'require-await': 'off',
     'require-unicode-regexp': 'off',
+    strict: ['error', 'global'],
     'vars-on-top': 'off',
     'wrap-iife': ['error', 'inside'],
     yoda: 'error',
+    //#endregion
 
-    // Strict Mode (https://eslint.org/docs/rules/#strict-mode)
-    strict: ['error', 'global'],
-
-    // Variables (https://eslint.org/docs/rules/#variables)
-    'init-declarations': 'off',
-    'no-delete-var': 'error',
-    'no-label-var': 'error',
-    'no-restricted-globals': 'off',
-    'no-shadow': 'off',
-    'no-shadow-restricted-names': 'error',
-    'no-undef': 'error',
-    'no-undef-init': 'error',
-    'no-undefined': 'off',
-    'no-unused-vars': 'error',
-    'no-use-before-define': 'off',
-
-    // Stylistic Issues (https://eslint.org/docs/rules/#stylistic-issues)
+    //#region Stylistic Issues (https://eslint.org/docs/rules/#stylistic-issues)
     // Many are unconfigured because we use Prettier
     camelcase: ['error', { properties: 'always', ignoreDestructuring: true }],
     'capitalized-comments': 'off',
@@ -247,10 +245,13 @@ module.exports = {
     'padding-line-between-statements': [
       'error',
       { blankLine: 'always', prev: 'directive', next: '*' },
+      { blankLine: 'always', prev: '*', next: 'function' },
+      { blankLine: 'always', prev: 'function', next: '*' },
     ],
     'unicode-bom': 'error',
+    //#endregion
 
-    // ECMAScript 6 (https://eslint.org/docs/rules/#ecmascript-6)
+    //#region ECMAScript 6 (https://eslint.org/docs/rules/#ecmascript-6)
     // Many are unconfigured because we use Prettier
     'constructor-super': 'error',
     'no-class-assign': 'error',
@@ -274,6 +275,7 @@ module.exports = {
     'require-yield': 'error',
     'sort-imports': 'off',
     'symbol-description': 'error',
+    //#endregion
 
     // Import plugin (https://github.com/benmosher/eslint-plugin-import)
 
