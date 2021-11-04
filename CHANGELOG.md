@@ -1,5 +1,13 @@
 # Changelog
 
+## [7.2.0](https://www.github.com/cheminfo/eslint-config/compare/v7.1.2...v7.2.0) (2021-11-04)
+
+
+### Features
+
+* **jsdoc:** allow up to two blank lines between jsdoc and function and do not check internal functions ([f1d2f1c](https://www.github.com/cheminfo/eslint-config/commit/f1d2f1c2323b4dc130f51e448ef6412bdc4c9c20))
+* verify that functions always have a blank line before and after them ([d051ae0](https://www.github.com/cheminfo/eslint-config/commit/d051ae099b6beb6e7897f9d097f0ec2f24898948))
+
 ### [7.1.2](https://www.github.com/cheminfo/eslint-config/compare/v7.1.1...v7.1.2) (2021-10-23)
 
 
