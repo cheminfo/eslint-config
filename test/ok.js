@@ -14,11 +14,9 @@ useIt(c);
  *
  * @returns {void}
  */
-function A() {
+export function A() {
   this.x = 1;
 }
-
-useIt(new A());
 
 // Allow regexes without unicode flag
 useIt(/abc/);
@@ -33,10 +31,23 @@ useIt(/abc/);
  * @param {string} a - Some string.
  * @returns {string} - The value of a.
  */
-function check(a) {
+export function check(a) {
   return a;
 }
-check('test');
+
+/**
+ * @internal
+ */
+export function internal(x) {
+  return x;
+}
+
+// This function is not exported and should trigger a jsdoc error.
+function internalNotExported(x) {
+  return x;
+}
+
+internalNotExported('test');
 
 let bigint = new BigInt64Array(1);
 useIt(bigint);
