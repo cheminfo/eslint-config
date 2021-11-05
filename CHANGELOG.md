@@ -1,5 +1,12 @@
 # Changelog
 
+### [7.2.1](https://www.github.com/cheminfo/eslint-config/compare/v7.2.0...v7.2.1) (2021-11-05)
+
+
+### Bug Fixes
+
+* **jsdoc:** disable require-description-complete-sentence rule ([5db979d](https://www.github.com/cheminfo/eslint-config/commit/5db979d0e7544305df020376952846c173831cc9))
+
 ## [7.2.0](https://www.github.com/cheminfo/eslint-config/compare/v7.1.2...v7.2.0) (2021-11-04)
 
 
