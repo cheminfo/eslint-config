@@ -18,7 +18,8 @@ module.exports = {
     ],
     'jsdoc/require-asterisk-prefix': 'warn',
     'jsdoc/require-description': 'warn',
-    'jsdoc/require-description-complete-sentence': 'warn',
+    // https://github.com/gajus/eslint-plugin-jsdoc/issues/779
+    'jsdoc/require-description-complete-sentence': 'off',
     'jsdoc/require-hyphen-before-param-description': 'warn',
   },
 };
