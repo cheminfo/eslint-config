@@ -1,5 +1,12 @@
 # Changelog
 
+### [7.2.2](https://www.github.com/cheminfo/eslint-config/compare/v7.2.1...v7.2.2) (2022-01-24)
+
+
+### Bug Fixes
+
+* update eslint-plugin-jest to v26 ([d75a921](https://www.github.com/cheminfo/eslint-config/commit/d75a9218929b98bbe3efab70b9474ecd9fcfb132))
+
 ### [7.2.1](https://www.github.com/cheminfo/eslint-config/compare/v7.2.0...v7.2.1) (2021-11-05)
 
 
