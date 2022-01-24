@@ -25,13 +25,13 @@
   "peerDependencies": {
     "eslint": "^8.0.1",
     "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jest": "^25.2.1",
+    "eslint-plugin-jest": "^26.0.0",
     "eslint-plugin-jsdoc": "^37.0.0"
   },
   "devDependencies": {
     "eslint": "8.0.1",
     "eslint-plugin-import": "2.25.2",
-    "eslint-plugin-jest": "25.2.1",
+    "eslint-plugin-jest": "26.0.0",
     "eslint-plugin-jsdoc": "37.0.0",
     "prettier": "^2.4.1"
   }
