@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.3.0](https://www.github.com/cheminfo/eslint-config/compare/v7.2.2...v7.3.0) (2022-03-08)
+
+
+### Features
+
+* split config into two base and jest configs ([78903f2](https://www.github.com/cheminfo/eslint-config/commit/78903f2ad86ae5e67ad0c3cdce939cd622de3431))
+
 ### [7.2.2](https://www.github.com/cheminfo/eslint-config/compare/v7.2.1...v7.2.2) (2022-01-24)
 
 
