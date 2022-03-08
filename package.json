@@ -4,7 +4,9 @@
   "description": "Shared ESLint config for cheminfo and ml.js projects",
   "main": "index.js",
   "files": [
+    "base.js",
     "index.js",
+    "jest.js",
     "jsdoc.js"
   ],
   "scripts": {
