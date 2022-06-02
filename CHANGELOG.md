@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.0.1](https://github.com/cheminfo/eslint-config/compare/v8.0.0...v8.0.1) (2022-06-02)
+
+
+### Bug Fixes
+
+* disable no-undefined rule ([8abb2fe](https://github.com/cheminfo/eslint-config/commit/8abb2fefbdbccba0681dc13803af1bca5f99f85e))
+
 ## [8.0.0](https://github.com/cheminfo/eslint-config/compare/v7.3.0...v8.0.0) (2022-06-02)
 
 
