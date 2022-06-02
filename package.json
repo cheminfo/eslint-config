@@ -25,16 +25,16 @@
   "homepage": "https://github.com/cheminfo/eslint-config#readme",
   "dependencies": {},
   "peerDependencies": {
-    "eslint": "^8.0.1",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jest": "^26.0.0",
-    "eslint-plugin-jsdoc": "^37.0.0"
+    "eslint": "^8.16.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.4.6",
+    "eslint-plugin-jsdoc": "^39.3.2"
   },
   "devDependencies": {
-    "eslint": "8.0.1",
-    "eslint-plugin-import": "2.25.2",
-    "eslint-plugin-jest": "26.0.0",
-    "eslint-plugin-jsdoc": "37.0.0",
-    "prettier": "^2.4.1"
+    "eslint": "8.16.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "26.4.6",
+    "eslint-plugin-jsdoc": "39.3.2",
+    "prettier": "^2.6.2"
   }
 }
