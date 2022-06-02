@@ -155,7 +155,6 @@ module.exports = {
     'no-shadow-restricted-names': 'error',
     'no-throw-literal': 'error',
     'no-undef-init': 'error',
-    'no-undefined': 'error',
     'no-unneeded-ternary': 'error',
     'no-unused-expressions': 'error',
     'no-unused-labels': 'error',
