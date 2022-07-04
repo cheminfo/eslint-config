@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.0.2](https://github.com/cheminfo/eslint-config/compare/v8.0.1...v8.0.2) (2022-07-04)
+
+
+### Bug Fixes
+
+* disable import/no-named-as-default rule ([1b840f1](https://github.com/cheminfo/eslint-config/commit/1b840f13f8d007f42af16ac5063e8f3ef5fd071e))
+
 ## [8.0.1](https://github.com/cheminfo/eslint-config/compare/v8.0.0...v8.0.1) (2022-06-02)
 
 
