@@ -7,9 +7,9 @@ const { ESLint } = require('eslint');
 const eslint = new ESLint({ overrideConfigFile: 'eslintrc.test.yml' });
 
 eslint
-  .lintFiles(['test/ok.js', 'test/not-ok.js', 'test/jest.test.js'])
+  .lintFiles(['test/ok.js', 'test/not-ok.js'])
   .then((results) => {
-    const [okResult, notOkResult, jestResult] = results;
+    const [okResult, notOkResult] = results;
 
     assert.strictEqual(
       okResult.errorCount,
@@ -39,8 +39,6 @@ eslint
       'strict',
       'wrap-iife',
     ]);
-
-    assert.strictEqual(jestResult.errorCount, 1, util.inspect(jestResult));
   })
   .catch((error) => {
     console.error(error);
