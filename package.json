@@ -6,7 +6,8 @@
   "files": [
     "base.js",
     "index.js",
-    "jsdoc.js"
+    "jsdoc.js",
+    "unicorn.js"
   ],
   "scripts": {
     "test": "node test/test.js"
@@ -26,12 +27,14 @@
   "peerDependencies": {
     "eslint": "^8.26.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsdoc": "^39.4.0"
+    "eslint-plugin-jsdoc": "^39.4.0",
+    "eslint-plugin-unicorn": "^44.0.2"
   },
   "devDependencies": {
     "eslint": "8.26.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsdoc": "39.4.0",
+    "eslint-plugin-unicorn": "44.0.2",
     "prettier": "^2.7.1"
   }
 }

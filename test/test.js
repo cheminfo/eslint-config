@@ -37,6 +37,7 @@ eslint
       'one-var',
       'one-var-declaration-per-line',
       'strict',
+      'unicorn/no-array-reduce',
       'wrap-iife',
     ]);
   })

@@ -13,7 +13,7 @@ npm i -D eslint-config-cheminfo eslint
 Create a `.eslintrc.yml` with the following contents:
 
 ```yml
-extends: [cheminfo, cheminfo/jsdoc]
+extends: [cheminfo, cheminfo/jsdoc, cheminfo/unicorn]
 ```
 
 You can then customize the config for your project by changing rules in this file.

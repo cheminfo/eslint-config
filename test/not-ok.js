@@ -23,9 +23,12 @@ function A() {
     return 1;
 }());
 
+useIt(['a', 'b', 'c'].reduce((prev, curr) => {
+  prev[curr] = true;
+  return prev;
+}), {});
+
 // use this function to mark a variable as used
 function useIt(...vals) {
   return vals;
 }
-
-

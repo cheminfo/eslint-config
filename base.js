@@ -40,7 +40,7 @@ module.exports = {
   ],
   rules: {
     // https://eslint.org/docs/rules/
-    // Last rules review: v8.16.0
+    // Last rules review: v8.26.0
 
     // https://github.com/import-js/eslint-plugin-import#rules
     // Last rules review: v2.26.0
