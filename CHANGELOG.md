@@ -1,5 +1,13 @@
 # Changelog
 
+## [8.1.0](https://github.com/cheminfo/eslint-config/compare/v8.0.2...v8.1.0) (2022-10-31)
+
+
+### Features
+
+* add opt-in unicorn config ([a972a0a](https://github.com/cheminfo/eslint-config/commit/a972a0a3efe44525309126ac9bf71cccdfacf58f))
+* update dependencies and remove jest plugin ([e871e1e](https://github.com/cheminfo/eslint-config/commit/e871e1ebaccfa6c7c6bfb4915ec8b18a9355a2b5))
+
 ## [8.0.2](https://github.com/cheminfo/eslint-config/compare/v8.0.1...v8.0.2) (2022-07-04)
 
 
