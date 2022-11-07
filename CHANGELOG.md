@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.1](https://github.com/cheminfo/eslint-config/compare/v8.1.0...v8.1.1) (2022-11-07)
+
+
+### Bug Fixes
+
+* remove import/no-unresolved rule ([fedc7cc](https://github.com/cheminfo/eslint-config/commit/fedc7cc6122d8d8585b0a34cad83c33e92e79107))
+
 ## [8.1.0](https://github.com/cheminfo/eslint-config/compare/v8.0.2...v8.1.0) (2022-10-31)
 
 
