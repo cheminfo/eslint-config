@@ -22,4 +22,14 @@ module.exports = {
     'jsdoc/require-description-complete-sentence': 'off',
     'jsdoc/require-hyphen-before-param-description': 'warn',
   },
+  overrides: [
+    {
+      files: ['*.{ts,tsx,cts,mts}'],
+      rules: {
+        'jsdoc/require-param-type': 'off',
+        'jsdoc/require-returns-type': 'off',
+        'jsdoc/no-types': 'warn',
+      },
+    },
+  ],
 };
