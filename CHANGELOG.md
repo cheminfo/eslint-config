@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.3](https://github.com/cheminfo/eslint-config/compare/v8.1.2...v8.1.3) (2022-11-07)
+
+
+### Bug Fixes
+
+* include TypeScript overrides in base config ([10dda9a](https://github.com/cheminfo/eslint-config/commit/10dda9abb7bd104a422cb4688c297bf40d639779))
+
 ## [8.1.2](https://github.com/cheminfo/eslint-config/compare/v8.1.1...v8.1.2) (2022-11-07)
 
 
