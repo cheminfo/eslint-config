@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.2](https://github.com/cheminfo/eslint-config/compare/v8.1.1...v8.1.2) (2022-11-07)
+
+
+### Bug Fixes
+
+* remove import/no-extraneous-dependencies rule ([d17034a](https://github.com/cheminfo/eslint-config/commit/d17034a97e6b0d0295216e6179d3245879db222b))
+
 ## [8.1.1](https://github.com/cheminfo/eslint-config/compare/v8.1.0...v8.1.1) (2022-11-07)
 
 
