@@ -205,7 +205,6 @@ module.exports = {
 
     //#region Import plugin (https://github.com/import-js/eslint-plugin-import#rules)
     // Static analysis
-    'import/no-unresolved': ['error', { commonjs: true }],
     'import/named': 'error',
     'import/default': 'warn',
     'import/namespace': 'error',
