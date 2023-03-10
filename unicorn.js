@@ -23,6 +23,8 @@ module.exports = {
     'unicorn/switch-case-braces': 'off',
     'unicorn/prefer-ternary': 'off',
     'unicorn/prefer-type-error': 'off',
+    // Might want to enable in a future semver-major.
+    'unicorn/no-negated-condition': 'off',
     'unicorn/no-useless-undefined': 'off',
     // Conflicts with Prettier.
     'unicorn/number-literal-case': 'off',
