@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.2.0](https://github.com/cheminfo/eslint-config/compare/v8.1.3...v8.2.0) (2023-03-10)
+
+
+### Features
+
+* update plugins ([28e372b](https://github.com/cheminfo/eslint-config/commit/28e372bf87f55063214cf33f8e6077fb8c661adb))
+
 ## [8.1.3](https://github.com/cheminfo/eslint-config/compare/v8.1.2...v8.1.3) (2022-11-07)
 
 
