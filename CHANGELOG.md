@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.3.1](https://github.com/cheminfo/eslint-config/compare/v8.3.0...v8.3.1) (2023-06-07)
+
+
+### Bug Fixes
+
+* disable unicorn/expiring-todo-comments ([daac601](https://github.com/cheminfo/eslint-config/commit/daac6015d4a0a2041db03c30c6cc697329d9e20c))
+
 ## [8.3.0](https://github.com/cheminfo/eslint-config/compare/v8.2.0...v8.3.0) (2023-05-26)
 
 

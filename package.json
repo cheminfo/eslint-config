@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cheminfo",
-  "version": "8.3.0",
+  "version": "8.3.1",
   "description": "Shared ESLint config for cheminfo and ml.js projects",
   "main": "index.js",
   "files": [
