@@ -41,5 +41,7 @@ module.exports = {
     'unicorn/prefer-switch': 'off',
     // Rare and problematic with APIs that have a find method.
     'unicorn/no-array-method-this-argument': 'off',
+    // We don't use the feature.
+    'unicorn/expiring-todo-comments': 'off',
   },
 };
