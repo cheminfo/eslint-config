@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.1](https://github.com/cheminfo/eslint-config/compare/v9.0.0...v9.0.1) (2023-07-18)
+
+
+### Bug Fixes
+
+* disable unicorn/no-empty-file rule ([7322363](https://github.com/cheminfo/eslint-config/commit/7322363dcc5464521ae8d3618fdb5f8d8701bc77))
+
 ## [9.0.0](https://github.com/cheminfo/eslint-config/compare/v8.3.1...v9.0.0) (2023-07-18)
 
 
