@@ -43,5 +43,7 @@ module.exports = {
     'unicorn/no-array-method-this-argument': 'off',
     // We don't use the feature.
     'unicorn/expiring-todo-comments': 'off',
+    // Doesn't work with typescript-eslint v6 at the moment.
+    'unicorn/no-empty-file': 'off',
   },
 };
