@@ -11,7 +11,6 @@ useIt(c);
 
 /**
  * This is function a.
- *
  * @returns {void}
  */
 export function A() {
@@ -27,7 +26,6 @@ useIt(/abc/);
 
 /**
  * Checks a.
- *
  * @param {string} a - Some string.
  * @returns {string} - The value of a.
  */
@@ -54,7 +52,6 @@ useIt(bigint);
 
 /**
  * Use this function to mark a variable as used.
- *
  * @param  {...any} vals - The values to use.
  * @returns {any} The used values.
  */

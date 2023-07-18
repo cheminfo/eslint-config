@@ -1,1 +1,1 @@
-extends: ['./index.js', './jsdoc.js', './unicorn.js']
+extends: ['./base.js', './jsdoc.js', './unicorn.js']
