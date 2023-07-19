@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.2](https://github.com/cheminfo/eslint-config/compare/v9.0.1...v9.0.2) (2023-07-19)
+
+
+### Bug Fixes
+
+* remove no-duplicate-imports rule ([aefba7d](https://github.com/cheminfo/eslint-config/commit/aefba7da29d349018a378984c83a69e0fb8249bb))
+
 ## [9.0.1](https://github.com/cheminfo/eslint-config/compare/v9.0.0...v9.0.1) (2023-07-18)
 
 
