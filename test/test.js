@@ -35,10 +35,8 @@ eslint
       'no-var',
       'no-var',
       'one-var',
-      'one-var-declaration-per-line',
       'strict',
       'unicorn/no-array-reduce',
-      'wrap-iife',
     ]);
   })
   .catch((error) => {

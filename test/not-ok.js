@@ -19,10 +19,6 @@ function A() {
   this.x = 1;
 }
 
-(function f() {
-    return 1;
-}());
-
 useIt(['a', 'b', 'c'].reduce((prev, curr) => {
   prev[curr] = true;
   return prev;
