@@ -1,5 +1,13 @@
 # Changelog
 
+## [9.1.0](https://github.com/cheminfo/eslint-config/compare/v9.0.2...v9.1.0) (2023-12-05)
+
+
+### Features
+
+* add a few rules and remove deprecated rules ([0ce5858](https://github.com/cheminfo/eslint-config/commit/0ce5858ea0bdca0dcc0910b53494d2786ab0d5a0))
+* update ESLint and plugins ([d0790e8](https://github.com/cheminfo/eslint-config/commit/d0790e86c63002e818d4a7769670d05f5659d4b8))
+
 ## [9.0.2](https://github.com/cheminfo/eslint-config/compare/v9.0.1...v9.0.2) (2023-07-19)
 
 
