@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.1.1](https://github.com/cheminfo/eslint-config/compare/v9.1.0...v9.1.1) (2023-12-06)
+
+
+### Bug Fixes
+
+* disable no-undefined ([301257d](https://github.com/cheminfo/eslint-config/commit/301257ddebbd354380f482f6c49e785a506345a9))
+
 ## [9.1.0](https://github.com/cheminfo/eslint-config/compare/v9.0.2...v9.1.0) (2023-12-05)
 
 
