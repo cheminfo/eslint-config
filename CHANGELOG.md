@@ -1,5 +1,13 @@
 # Changelog
 
+## [9.2.0](https://github.com/cheminfo/eslint-config/compare/v9.1.1...v9.2.0) (2024-02-09)
+
+
+### Features
+
+* add plugin to prevent use of lookbehind in regexp ([1a5dc32](https://github.com/cheminfo/eslint-config/commit/1a5dc32bbf475c11f1c59cddd1c1176c83106b7e))
+* update dependencies ([e6d5a90](https://github.com/cheminfo/eslint-config/commit/e6d5a9044c04eda46c6f01e8211d0835d3808fcf))
+
 ## [9.1.1](https://github.com/cheminfo/eslint-config/compare/v9.1.0...v9.1.1) (2023-12-06)
 
 
