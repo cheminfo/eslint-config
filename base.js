@@ -10,7 +10,7 @@ module.exports = {
     ecmaVersion: '2022',
     sourceType: 'module',
   },
-  plugins: ['import'],
+  plugins: ['import', 'no-lookahead-lookbehind-regexp'],
   reportUnusedDisableDirectives: true,
   overrides: [
     {
@@ -40,7 +40,7 @@ module.exports = {
   ],
   rules: {
     // https://eslint.org/docs/latest/rules/
-    // Last rules review: v8.55.0
+    // Last rules review: v8.56.0
 
     // https://github.com/import-js/eslint-plugin-import#rules
     // Last rules review: v2.26.0
@@ -306,6 +306,15 @@ module.exports = {
       },
     ],
     'import/no-named-default': 'error',
+    //#endregion
+
+    //#region No lookbehind plugin (https://github.com/JonasBa/eslint-plugin-no-lookahead-lookbehind-regexp)
+    'no-lookahead-lookbehind-regexp/no-lookahead-lookbehind-regexp': [
+      'error',
+      'no-lookbehind',
+      'no-negative-lookbehind',
+      { browserslist: false },
+    ],
     //#endregion
   },
 };

@@ -29,6 +29,7 @@ eslint
       .sort();
     assert.deepStrictEqual(errors, [
       'no-console',
+      'no-lookahead-lookbehind-regexp/no-lookahead-lookbehind-regexp',
       'no-redeclare',
       'no-unused-vars',
       'no-unused-vars',
