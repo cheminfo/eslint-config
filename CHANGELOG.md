@@ -1,5 +1,16 @@
 # Changelog
 
+## [10.0.0](https://github.com/cheminfo/eslint-config/compare/v9.2.0...v10.0.0) (2024-06-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* update plugins and add rules
+
+### Features
+
+* update plugins and add rules ([5b449b5](https://github.com/cheminfo/eslint-config/commit/5b449b5ee2ca59471f92e9c4c97fc10a2d3c57d3))
+
 ## [9.2.0](https://github.com/cheminfo/eslint-config/compare/v9.1.1...v9.2.0) (2024-02-09)
 
 
