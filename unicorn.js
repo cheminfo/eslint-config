@@ -45,5 +45,7 @@ module.exports = {
     'unicorn/expiring-todo-comments': 'off',
     // Doesn't work with typescript-eslint v6 at the moment.
     'unicorn/no-empty-file': 'off',
+    // We already have a rule for anonymous functions and tooling often does this with config.
+    'unicorn/no-anonymous-default-export': 'off',
   },
 };
