@@ -1,12 +1,11 @@
-import _import from 'eslint-plugin-import';
+import importPlugin from 'eslint-plugin-import-x';
 import noLookaheadLookbehindRegexp from 'eslint-plugin-no-lookahead-lookbehind-regexp';
-import { fixupPluginRules } from '@eslint/compat';
 import globals from 'globals';
 
 export default [
   {
     plugins: {
-      import: fixupPluginRules(_import),
+      import: importPlugin,
       'no-lookahead-lookbehind-regexp': noLookaheadLookbehindRegexp,
     },
 
@@ -239,8 +238,6 @@ export default [
       //#region Import plugin (https://github.com/import-js/eslint-plugin-import#rules)
       // Static analysis
       'import/named': 'error',
-      'import/default': 'warn',
-      'import/namespace': 'error',
       'import/no-absolute-path': 'error',
       'import/no-webpack-loader-syntax': 'error',
       'import/no-self-import': 'error',
@@ -248,8 +245,6 @@ export default [
 
       // Helpful warnings
       'import/export': 'error',
-      'import/no-named-as-default-member': 'error',
-      'import/no-deprecated': 'warn',
 
       // Module systems
       'import/no-amd': 'error',
