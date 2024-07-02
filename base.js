@@ -237,7 +237,6 @@ export default [
 
       //#region Import plugin (https://github.com/import-js/eslint-plugin-import#rules)
       // Static analysis
-      'import/named': 'error',
       'import/no-absolute-path': 'error',
       'import/no-webpack-loader-syntax': 'error',
       'import/no-self-import': 'error',
