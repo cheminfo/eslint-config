@@ -1,5 +1,16 @@
 # Changelog
 
+## [11.0.0](https://github.com/cheminfo/eslint-config/compare/v10.0.0...v11.0.0) (2024-07-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to ESLint flat config
+
+### Features
+
+* migrate to ESLint flat config ([1e6be26](https://github.com/cheminfo/eslint-config/commit/1e6be262c39b6ebe14cd1d1fbaedb2548298f2ea))
+
 ## [10.0.0](https://github.com/cheminfo/eslint-config/compare/v9.2.0...v10.0.0) (2024-06-29)
 
 
