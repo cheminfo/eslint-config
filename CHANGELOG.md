@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.0.2](https://github.com/cheminfo/eslint-config/compare/v11.0.1...v11.0.2) (2024-07-02)
+
+
+### Bug Fixes
+
+* remove problematic import/export rule ([69bd9e3](https://github.com/cheminfo/eslint-config/commit/69bd9e3fbeab44b88f0a0ab41c500b1475255b08))
+
 ## [11.0.1](https://github.com/cheminfo/eslint-config/compare/v11.0.0...v11.0.1) (2024-07-02)
 
 
