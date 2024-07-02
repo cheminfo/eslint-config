@@ -243,9 +243,6 @@ export default [
       'import/no-self-import': 'error',
       'import/no-useless-path-segments': 'error',
 
-      // Helpful warnings
-      'import/export': 'error',
-
       // Module systems
       'import/no-amd': 'error',
 
