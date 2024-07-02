@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.0.1](https://github.com/cheminfo/eslint-config/compare/v11.0.0...v11.0.1) (2024-07-02)
+
+
+### Bug Fixes
+
+* import plugin with flat config ([0b9d723](https://github.com/cheminfo/eslint-config/commit/0b9d7238e5e3f940e7075e202e1d6a082439dd6b))
+
 ## [11.0.0](https://github.com/cheminfo/eslint-config/compare/v10.0.0...v11.0.0) (2024-07-02)
 
 
