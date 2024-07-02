@@ -2,10 +2,16 @@
   "name": "eslint-config-cheminfo",
   "version": "10.0.0",
   "description": "Shared ESLint config for cheminfo and ml.js projects",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./cheminfo.js",
+    "./base": "./base.js",
+    "./jsdoc": "./jsdoc.js",
+    "./unicorn": "./unicorn.js"
+  },
   "files": [
+    "cheminfo.js",
     "base.js",
-    "index.js",
     "jsdoc.js",
     "unicorn.js"
   ],
@@ -23,19 +29,19 @@
     "url": "https://github.com/cheminfo/eslint-config/issues"
   },
   "homepage": "https://github.com/cheminfo/eslint-config#readme",
-  "peerDependencies": {
-    "eslint": "^8.57.0",
+  "dependencies": {
+    "@eslint/compat": "^1.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsdoc": "^48.5.0",
-    "eslint-plugin-no-lookahead-lookbehind-regexp": "0.3.0",
-    "eslint-plugin-unicorn": "^54.0.0"
+    "eslint-plugin-no-lookahead-lookbehind-regexp": "^0.3.0",
+    "eslint-plugin-unicorn": "^54.0.0",
+    "globals": "^15.7.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.57.0"
   },
   "devDependencies": {
     "eslint": "8.57.0",
-    "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-jsdoc": "48.5.0",
-    "eslint-plugin-no-lookahead-lookbehind-regexp": "0.3.0",
-    "eslint-plugin-unicorn": "54.0.0",
     "prettier": "^3.3.2"
   }
 }

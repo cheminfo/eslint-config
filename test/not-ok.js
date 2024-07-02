@@ -1,5 +1,7 @@
 'use strict';
 
+import '/absolute/path';
+
 console.log('abc');
 
 let a;

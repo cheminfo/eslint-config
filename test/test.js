@@ -1,49 +1,39 @@
-'use strict';
+import assert from 'node:assert';
+import fs from 'node:fs';
 
-const assert = require('assert');
-const util = require('util');
-const { ESLint } = require('eslint');
+import { Linter } from 'eslint';
 
-const eslint = new ESLint({ overrideConfigFile: 'eslintrc.test.yml' });
+import config from '../cheminfo.js';
 
-eslint
-  .lintFiles(['test/ok.js', 'test/not-ok.js'])
-  .then((results) => {
-    const [okResult, notOkResult] = results;
+function readTestFile(filename) {
+  return fs.readFileSync(new URL(`./${filename}`, import.meta.url), 'utf8');
+}
 
-    assert.strictEqual(
-      okResult.errorCount,
-      0,
-      'ok.js should have no error: ' + util.format(okResult.messages),
-    );
+const linter = new Linter({ configType: 'flat' });
 
-    assert.strictEqual(
-      okResult.warningCount,
-      0,
-      'ok.js should have no warnings: ' + util.format(okResult.messages),
-    );
+const okResult = linter.verify(readTestFile('ok.js'), config);
+assert.strictEqual(okResult.length, 0, 'ok.js should have no error');
 
-    const errors = notOkResult.messages
-      .filter(isError)
-      .map((error) => error.ruleId)
-      .sort();
-    assert.deepStrictEqual(errors, [
-      'no-console',
-      'no-lookahead-lookbehind-regexp/no-lookahead-lookbehind-regexp',
-      'no-redeclare',
-      'no-unused-vars',
-      'no-unused-vars',
-      'no-var',
-      'no-var',
-      'one-var',
-      'strict',
-      'unicorn/no-array-reduce',
-    ]);
-  })
-  .catch((error) => {
-    console.error(error);
-    process.exit(1);
-  });
+const notOkResult = linter.verify(readTestFile('not-ok.js'), config);
+
+const errors = notOkResult
+  .filter(isError)
+  .map((error) => error.ruleId)
+  .sort();
+
+assert.deepStrictEqual(errors, [
+  'import/no-absolute-path',
+  'no-console',
+  'no-lookahead-lookbehind-regexp/no-lookahead-lookbehind-regexp',
+  'no-redeclare',
+  'no-unused-vars',
+  'no-unused-vars',
+  'no-var',
+  'no-var',
+  'one-var',
+  'strict',
+  'unicorn/no-array-reduce',
+]);
 
 function isError(message) {
   return message.severity === 2;
