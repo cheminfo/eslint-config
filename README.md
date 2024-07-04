@@ -40,6 +40,7 @@ Create ESLint scripts in your `package.json`:
 ## Exported configurations
 
 This package exports three separate configurations:
+
 - [`eslint-config-cheminfo/base`](./base.js): The base config with most rules. At least this config should be used in all projects.
 - [`eslint-config-cheminfo/jsdoc`](./jsdoc.js): Rules from the [jsdoc plugin](https://github.com/gajus/eslint-plugin-jsdoc) to help improve the documentation of our libraries.
 - [`eslint-config-cheminfo/unicorn`](./unicorn.js): Additional opinionated rules selected from the [unicorn plugin](https://github.com/sindresorhus/eslint-plugin-unicorn).
