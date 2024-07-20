@@ -1,22 +1,19 @@
 import assert from 'node:assert';
-import fs from 'node:fs';
 
-import { Linter } from 'eslint';
+import { loadESLint } from 'eslint';
 
-import config from '../cheminfo.js';
+/** @type {import('eslint').ESLint} */
+const ESLint = await loadESLint({ useFlatConfig: true });
+const eslint = new ESLint();
 
-function readTestFile(filename) {
-  return fs.readFileSync(new URL(`./${filename}`, import.meta.url), 'utf8');
-}
+const [okResult, notOkResult] = await eslint.lintFiles([
+  'test/ok.js',
+  'test/not-ok.js',
+]);
 
-const linter = new Linter({ configType: 'flat' });
+assert.strictEqual(okResult.errorCount, 0, 'ok.js should have no error');
 
-const okResult = linter.verify(readTestFile('ok.js'), config);
-assert.strictEqual(okResult.length, 0, 'ok.js should have no error');
-
-const notOkResult = linter.verify(readTestFile('not-ok.js'), config);
-
-const errors = notOkResult
+const errors = notOkResult.messages
   .filter(isError)
   .map((error) => error.ruleId)
   .sort();
