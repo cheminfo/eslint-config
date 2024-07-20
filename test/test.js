@@ -2,8 +2,8 @@ import assert from 'node:assert';
 
 import { loadESLint } from 'eslint';
 
-/** @type {import('eslint').ESLint} */
 const ESLint = await loadESLint({ useFlatConfig: true });
+/** @type {import('eslint').ESLint} */
 const eslint = new ESLint();
 
 const [okResult, notOkResult] = await eslint.lintFiles([
