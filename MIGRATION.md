@@ -18,7 +18,7 @@ export default [
   ...cheminfo,
   {
     // Custom config for the project, overrides.
-  }
+  },
 ];
 ```
 
@@ -50,8 +50,8 @@ export default [
     files: ['scripts/**'],
     rules: {
       // Rules that only apply to the scripts directory.
-    }
-  }
+    },
+  },
 ];
 ```
 
@@ -64,12 +64,9 @@ Add an object with an `ignores` field to the flat config.
 ```js
 export default [
   {
-    ignores: [
-      "**/build",
-      "src/generated/**",
-    ]
+    ignores: ['**/build', 'src/generated/**'],
   },
-  ...cheminfo
+  ...cheminfo,
 ];
 ```
 
@@ -86,15 +83,15 @@ Install and use the `globals` package:
 import globals from 'globals';
 
 export default [
-  ...cheminfo
+  ...cheminfo,
   {
     languageOptions: {
       globals: {
         ...globals.node,
-        ...globals.jest
-      }
-    }
-  }
+        ...globals.jest,
+      },
+    },
+  },
 ];
 ```
 

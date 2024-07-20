@@ -19,9 +19,7 @@ Create a `eslint.config.mjs` file with the following contents:
 ```js
 import cheminfo from 'eslint-config-cheminfo';
 
-export default [
-  ...cheminfo,
-];
+export default [...cheminfo];
 ```
 
 You can then customize the config for your project.
@@ -65,8 +63,5 @@ To extend both the TypeScript and React configs, use the following template:
 import typescript from 'eslint-config-cheminfo-typescript';
 import react from 'eslint-config-cheminfo-react/base';
 
-export default [
-  ...typescript,
-  ...react,
-];
+export default [...typescript, ...react];
 ```
