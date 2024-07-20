@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.0.4](https://github.com/cheminfo/eslint-config/compare/v11.0.3...v11.0.4) (2024-07-20)
+
+
+### Bug Fixes
+
+* update dependencies ([#55](https://github.com/cheminfo/eslint-config/issues/55)) ([fe73e9c](https://github.com/cheminfo/eslint-config/commit/fe73e9c7e2e37e2ca01883d2fe5220cc14b8f832))
+
 ## [11.0.3](https://github.com/cheminfo/eslint-config/compare/v11.0.2...v11.0.3) (2024-07-02)
 
 
