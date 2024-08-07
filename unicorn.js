@@ -6,6 +6,8 @@ export default [
     rules: {
       // We are not consistent enough to enable this rule.
       'unicorn/filename-case': 'off',
+      // Some prefer to always use destructuring.
+      'unicorn/import-style': 'off',
       // Flags i,j,k, etc.
       'unicorn/prevent-abbreviations': 'off',
       // TODO: create issue about risk (>32bit integers)
