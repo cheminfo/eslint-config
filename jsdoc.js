@@ -13,6 +13,7 @@ export default [
       'jsdoc/require-jsdoc': [
         'warn',
         {
+          enableFixer: false,
           publicOnly: true,
         },
       ],
