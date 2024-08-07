@@ -1,5 +1,18 @@
 # Changelog
 
+## [11.1.0](https://github.com/cheminfo/eslint-config/compare/v11.0.4...v11.1.0) (2024-08-07)
+
+
+### Features
+
+* udpate dependencies ([e1fa5af](https://github.com/cheminfo/eslint-config/commit/e1fa5af41af24edc6a9cb5bb9ed3148b3c864aa9))
+
+
+### Bug Fixes
+
+* disable autofix of jsdoc/require-jsdoc ([66d0f34](https://github.com/cheminfo/eslint-config/commit/66d0f344a33eda69742c0262f2d6b2eae5f5dd38))
+* disable unicorn/import-style rule ([4ea0b86](https://github.com/cheminfo/eslint-config/commit/4ea0b86f58453a490811351ddb1c7940b8b1a601))
+
 ## [11.0.4](https://github.com/cheminfo/eslint-config/compare/v11.0.3...v11.0.4) (2024-07-20)
 
 
