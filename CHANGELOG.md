@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.1.1](https://github.com/cheminfo/eslint-config/compare/v11.1.0...v11.1.1) (2024-08-13)
+
+
+### Bug Fixes
+
+* disable no-defaults jsdocs rules for now ([#60](https://github.com/cheminfo/eslint-config/issues/60)) ([3f7fece](https://github.com/cheminfo/eslint-config/commit/3f7feceb294866914f379c0ae93bc58df3a22cc6))
+
 ## [11.1.0](https://github.com/cheminfo/eslint-config/compare/v11.0.4...v11.1.0) (2024-08-07)
 
 
