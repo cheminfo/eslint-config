@@ -10,7 +10,7 @@ export default [
       },
     },
     rules: {
-      "jsdoc/no-defaults": "off",
+      'jsdoc/no-defaults': 'off',
       'jsdoc/require-jsdoc': [
         'warn',
         {
