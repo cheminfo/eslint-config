@@ -1,4 +1,4 @@
-import importPlugin from 'eslint-plugin-import-x';
+import importPlugin from 'eslint-plugin-import';
 import noLookaheadLookbehindRegexp from 'eslint-plugin-no-lookahead-lookbehind-regexp';
 import globals from 'globals';
 
