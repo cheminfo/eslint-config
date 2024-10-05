@@ -21,7 +21,6 @@ const errors = notOkResult.messages
 assert.deepStrictEqual(errors, [
   'import/no-absolute-path',
   'no-console',
-  'no-lookahead-lookbehind-regexp/no-lookahead-lookbehind-regexp',
   'no-redeclare',
   'no-unused-vars',
   'no-unused-vars',

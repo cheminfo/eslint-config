@@ -22,8 +22,6 @@ function A() {
   this.x = 1;
 }
 
-useIt(/test(?<=text)/);
-
 useIt(
   ['a', 'b', 'c'].reduce((prev, curr) => {
     prev[curr] = true;

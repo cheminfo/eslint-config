@@ -1,12 +1,10 @@
 import importPlugin from 'eslint-plugin-import';
-import noLookaheadLookbehindRegexp from 'eslint-plugin-no-lookahead-lookbehind-regexp';
 import globals from 'globals';
 
 export default [
   {
     plugins: {
       import: importPlugin,
-      'no-lookahead-lookbehind-regexp': noLookaheadLookbehindRegexp,
     },
 
     linterOptions: {
@@ -279,15 +277,6 @@ export default [
         },
       ],
       'import/no-named-default': 'error',
-      //#endregion
-
-      //#region No lookbehind plugin (https://github.com/JonasBa/eslint-plugin-no-lookahead-lookbehind-regexp)
-      'no-lookahead-lookbehind-regexp/no-lookahead-lookbehind-regexp': [
-        'error',
-        'no-lookbehind',
-        'no-negative-lookbehind',
-        { browserslist: false },
-      ],
       //#endregion
     },
   },
