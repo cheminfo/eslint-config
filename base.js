@@ -58,7 +58,6 @@ export default [
       'no-loss-of-precision': 'error',
       'no-misleading-character-class': 'error',
       'no-new-native-nonconstructor': 'error',
-      'no-new-symbol': 'error',
       'no-obj-calls': 'error',
       'no-promise-executor-return': 'error',
       'no-prototype-builtins': 'error',
@@ -118,7 +117,6 @@ export default [
       'max-nested-callbacks': 'off',
       'max-params': 'off',
       'max-statements': 'off',
-      'multiline-comment-style': 'off',
       'new-cap': 'error',
       'no-alert': 'error',
       'no-array-constructor': 'error',
@@ -229,7 +227,6 @@ export default [
       //#endregion
 
       //#region Layout & Formatting (https://eslint.org/docs/latest/rules/#layout--formatting)
-      'line-comment-position': 'off',
       'unicode-bom': 'error',
       //#endregion
 
