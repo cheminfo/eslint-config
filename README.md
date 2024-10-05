@@ -9,7 +9,7 @@ Shared ESLint config for cheminfo and ml.js projects.
 ## Installation
 
 ```console
-npm i -D eslint-config-cheminfo eslint@^8.57.0
+npm i -D eslint-config-cheminfo eslint
 ```
 
 ## Usage
