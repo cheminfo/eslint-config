@@ -1,5 +1,22 @@
 # Changelog
 
+## [12.0.0](https://github.com/cheminfo/eslint-config/compare/v11.1.2...v12.0.0) (2024-10-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* update eslint-plugin-unicorn
+
+### Features
+
+* add support for ESLint 9 ([b2cd944](https://github.com/cheminfo/eslint-config/commit/b2cd9445c7b979abc26b67ba0c9f07ad273ad56f))
+* update eslint-plugin-unicorn ([eb50556](https://github.com/cheminfo/eslint-config/commit/eb50556a885355d611802b6debe9c7e036b8b1da))
+
+
+### Bug Fixes
+
+* go back to eslint-plugin-import ([4d90e2b](https://github.com/cheminfo/eslint-config/commit/4d90e2bca0b65dc354e67fd9eb2f2a67e9652215))
+
 ## [11.1.2](https://github.com/cheminfo/eslint-config/compare/v11.1.1...v11.1.2) (2024-10-01)
 
 
