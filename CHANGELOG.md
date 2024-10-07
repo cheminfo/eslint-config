@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.0.1](https://github.com/cheminfo/eslint-config/compare/v12.0.0...v12.0.1) (2024-10-07)
+
+
+### Bug Fixes
+
+* disable unicorn/prefer-global-this ([8f39065](https://github.com/cheminfo/eslint-config/commit/8f39065d0de59f3132f57512d95d15470ce48550))
+
 ## [12.0.0](https://github.com/cheminfo/eslint-config/compare/v11.1.2...v12.0.0) (2024-10-05)
 
 
