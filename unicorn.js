@@ -23,6 +23,7 @@ export default [
       // We use null in many places.
       'unicorn/no-null': 'off',
       'unicorn/switch-case-braces': 'off',
+      'unicorn/prefer-global-this': 'off',
       'unicorn/prefer-ternary': 'off',
       'unicorn/prefer-type-error': 'off',
       // Might want to enable in a future semver-major.
