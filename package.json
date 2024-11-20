@@ -37,14 +37,14 @@
   "dependencies": {
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsdoc": "^50.5.0",
-    "eslint-plugin-unicorn": "^56.0.0",
+    "eslint-plugin-unicorn": "^56.0.1",
     "globals": "^15.12.0"
   },
   "peerDependencies": {
-    "eslint": "^8.57.0 || ^9.12.0"
+    "eslint": "^9.15.0"
   },
   "devDependencies": {
-    "eslint": "9.12.0",
+    "eslint": "9.15.0",
     "prettier": "^3.3.3"
   }
 }

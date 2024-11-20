@@ -19,7 +19,7 @@ export default [
 
     rules: {
       // https://eslint.org/docs/latest/rules/
-      // Last rules review: v8.56.0
+      // Last rules review: v9.15.0
 
       // https://github.com/import-js/eslint-plugin-import#rules
       // Last rules review: v2.31.0
