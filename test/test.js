@@ -20,6 +20,7 @@ const errors = notOkResult.messages
 
 assert.deepStrictEqual(errors, [
   'import/no-absolute-path',
+  'import/no-unassigned-import',
   'no-console',
   'no-redeclare',
   'no-unused-vars',

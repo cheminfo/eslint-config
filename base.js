@@ -22,7 +22,7 @@ export default [
       // Last rules review: v8.56.0
 
       // https://github.com/import-js/eslint-plugin-import#rules
-      // Last rules review: v2.26.0
+      // Last rules review: v2.31.0
 
       //#region Possible Problems (https://eslint.org/docs/latest/rules/#possible-problems)
       'array-callback-return': 'error',
@@ -231,18 +231,83 @@ export default [
       //#endregion
 
       //#region Import plugin (https://github.com/import-js/eslint-plugin-import#rules)
-      // Static analysis
-      'import/no-absolute-path': 'error',
-      'import/no-webpack-loader-syntax': 'error',
-      'import/no-self-import': 'error',
-      'import/no-useless-path-segments': 'error',
+      // Helpful warnings
+      'import/export': 'error',
+      // Handled by the TypeScript plugin.
+      // 'import/no-deprecated': 'off',
+      'import/no-empty-named-blocks': 'error',
+      'import/no-extraneous-dependencies': 'error',
+      // The `prefer-const` rule already handles wrong use of `let`.
+      // 'import/no-mutable-exports': 'off',
+      'import/no-named-as-default': 'error',
+      'import/no-named-as-default-member': 'error',
+      // This should be enabled and configured in projects on a case-by-case basis.
+      // 'import/no-unused-modules': 'off',
 
       // Module systems
-      'import/no-amd': 'error',
+      // No risk to introduce it by mistake.
+      // 'import/no-amd': 'off',
+      // Not ready for this.
+      // 'import/no-commonjs': 'off',
+      // We don't do this mistake.
+      // 'import/no-import-module-exports': 'off',
+      // Why wouldn't we?
+      // 'import/no-nodejs-modules': 'off',
+      // Very rare and has not been an issue for us.
+      // 'import/unambiguous': 'off',
+
+      // Static analysis
+      // These are bugs that can be caught by tests and TypeScript.
+      // 'import/default': 'off',
+      // 'import/named': 'off',
+      // 'import/namespace': 'off',
+      'import/no-absolute-path': 'error',
+      // TODO: maybe enable at some point
+      // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
+      // 'import/no-cycle': 'off',
+      'import/no-dynamic-require': 'error',
+      // This should be enabled and configured in projects on a case-by-case basis.
+      // 'import/no-internal-modules': 'off',
+      // 'import/no-relative-packages': 'off',
+      // 'import/no-relative-parent-imports': 'off',
+      // 'import/no-restricted-paths': 'off',
+      'import/no-self-import': 'error',
+      // Resolver doesn't support all recent node features.
+      // 'import/no-unresolved': 'off',
+      'import/no-useless-path-segments': 'error',
+      'import/no-webpack-loader-syntax': 'error',
 
       // Style guide
+      // Will be enabled in the TypeScript config.
+      // 'import/consistent-type-specifier-style': 'off',
+      // We don't use webpack.
+      // 'import/dynamic-import-chunkname': 'off',
+      // We never do that.
+      // 'import/exports-last': 'off',
+      // We handle this in TypeScript and resolver doesn't support all recent node features.
+      // 'import/extensions': 'off',
       'import/first': 'error',
+      // We never do that.
+      // 'import/group-exports': 'off',
+      // Difficult to avoid it in React components.
+      // 'import/max-dependencies': 'off',
+      'import/newline-after-import': 'error',
+      // There are cases where it makes sense.
+      // 'import/no-anonymous-default-export': 'off',
+      // This is essentially incompatible with React.
+      // 'import/no-default-export': 'off',
       'import/no-duplicates': 'error',
+      'import/no-named-default': 'error',
+      // Of course not.
+      // 'import/no-named-export': 'off',
+      // Sometimes we need it in TypeScript.
+      // 'import/no-namespace': 'off',
+      'import/no-unassigned-import': [
+        'error',
+        {
+          allow: ['dotenv/config', 'reflect-metadata', '**/*.css'],
+        },
+      ],
       'import/order': [
         'warn',
         {
@@ -260,20 +325,8 @@ export default [
           },
         },
       ],
-      'import/newline-after-import': 'error',
-      'import/no-unassigned-import': [
-        'warn',
-        {
-          allow: [
-            'make-promises-safe',
-            'node-report',
-            'reflect-metadata',
-            '**/*.css',
-            'react-app-polyfill/*',
-          ],
-        },
-      ],
-      'import/no-named-default': 'error',
+      // We usually mix default and named exports, especially in React projects.
+      // 'import/prefer-default-export': 'off',
       //#endregion
     },
   },
