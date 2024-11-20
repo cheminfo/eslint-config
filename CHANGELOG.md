@@ -1,5 +1,18 @@
 # Changelog
 
+## [13.0.0](https://github.com/cheminfo/eslint-config/compare/v12.0.1...v13.0.0) (2024-11-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* require ESLint >=9.15.0
+* update and review import plugin rules
+
+### Features
+
+* require ESLint &gt;=9.15.0 ([3d595dc](https://github.com/cheminfo/eslint-config/commit/3d595dc521a42cffb5237804f2164312aa658f71))
+* update and review import plugin rules ([3c65c87](https://github.com/cheminfo/eslint-config/commit/3c65c87ec24f342d0f5081043fdfd11bc6dc8891))
+
 ## [12.0.1](https://github.com/cheminfo/eslint-config/compare/v12.0.0...v12.0.1) (2024-10-07)
 
 
