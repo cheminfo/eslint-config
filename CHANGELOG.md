@@ -1,5 +1,16 @@
 # Changelog
 
+## [14.0.0](https://github.com/cheminfo/eslint-config/compare/v13.0.0...v14.0.0) (2025-03-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* update ESLint to v9.22.0 and use config helpers ([#70](https://github.com/cheminfo/eslint-config/issues/70))
+
+### Features
+
+* update ESLint to v9.22.0 and use config helpers ([#70](https://github.com/cheminfo/eslint-config/issues/70)) ([17f5de4](https://github.com/cheminfo/eslint-config/commit/17f5de46371f32d2b12ba6669945f5c15e975c09))
+
 ## [13.0.0](https://github.com/cheminfo/eslint-config/compare/v12.0.1...v13.0.0) (2024-11-20)
 
 
