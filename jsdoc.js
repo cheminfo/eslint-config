@@ -1,6 +1,7 @@
+import { defineConfig } from 'eslint/config';
 import jsdoc from 'eslint-plugin-jsdoc';
 
-export default [
+export default defineConfig(
   jsdoc.configs['flat/recommended'],
   {
     settings: {
@@ -31,4 +32,4 @@ export default [
       'jsdoc/no-types': 'warn',
     },
   },
-];
+);

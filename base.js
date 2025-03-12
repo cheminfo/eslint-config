@@ -1,7 +1,8 @@
+import { defineConfig } from 'eslint/config';
 import importPlugin from 'eslint-plugin-import';
 import globals from 'globals';
 
-export default [
+export default defineConfig(
   {
     plugins: {
       import: importPlugin,
@@ -349,4 +350,4 @@ export default [
       },
     },
   },
-];
+);
