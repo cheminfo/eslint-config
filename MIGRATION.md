@@ -12,14 +12,12 @@ To extend them, just spread the configs in yours.
 Later config elements (in array order), override the previous ones.
 
 ```js
+import { defineConfig } from 'eslint/config';
 import cheminfo from 'eslint-config-cheminfo';
 
-export default [
-  ...cheminfo,
-  {
-    // Custom config for the project, overrides.
-  },
-];
+export default defineConfig(cheminfo, {
+  // Custom config for the project, overrides.
+});
 ```
 
 > [!WARNING]  
@@ -44,30 +42,31 @@ In the old config format, a nested config file only applied to the directory whe
 When moving it to the flat config, use `files` patterns:
 
 ```js
-export default [
-  ...cheminfo,
-  {
-    files: ['scripts/**'],
-    rules: {
-      // Rules that only apply to the scripts directory.
-    },
+import { defineConfig } from 'eslint/config';
+import cheminfo from 'eslint-config-cheminfo';
+
+export default defineConfig(cheminfo, {
+  files: ['scripts/**'],
+  rules: {
+    // Rules that only apply to the scripts directory.
   },
-];
+});
 ```
 
 ## How migrate `.eslintignore`?
 
-Refs: [ignoring files](https://eslint.org/docs/latest/use/configure/migration-guide#ignoring-files).
+Refs: [ignoring files](https://eslint.org/docs/latest/use/configure/ignore).
 
-Add an object with an `ignores` field to the flat config.
+Use the `globalIgnores` helper, which will add an object with an `ignores` field to the flat config.
 
 ```js
-export default [
-  {
-    ignores: ['**/build', 'src/generated/**'],
-  },
-  ...cheminfo,
-];
+import { defineConfig, globalIgnores } from 'eslint/config';
+import cheminfo from 'eslint-config-cheminfo';
+
+export default defineConfig(
+  globalIgnores(['**/build', 'src/generated/**']),
+  cheminfo,
+);
 ```
 
 Be careful that the new `ignores` should be written with glob syntax (previously it was gitignore syntax).
@@ -75,24 +74,23 @@ The main difference is that to match directories or files at any depth, you need
 
 ## What about the `env` field?
 
-Refs: [configuring language options](https://eslint.org/docs/latest/use/configure/migration-guide#configuring-language-options).
+Refs: [configuring language options](https://eslint.org/docs/latest/use/configure/language-options#using-configuration-files).
 
 Install and use the `globals` package:
 
 ```js
+import { defineConfig } from 'eslint/config';
+import cheminfo from 'eslint-config-cheminfo';
 import globals from 'globals';
 
-export default [
-  ...cheminfo,
-  {
-    languageOptions: {
-      globals: {
-        ...globals.node,
-        ...globals.jest,
-      },
+export default defineConfig(cheminfo, {
+  languageOptions: {
+    globals: {
+      ...globals.node,
+      ...globals.jest,
     },
   },
-];
+});
 ```
 
 ## Examples

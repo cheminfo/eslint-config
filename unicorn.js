@@ -1,6 +1,7 @@
+import { defineConfig } from 'eslint/config';
 import unicorn from 'eslint-plugin-unicorn';
 
-export default [
+export default defineConfig([
   unicorn.configs['flat/recommended'],
   {
     rules: {
@@ -38,7 +39,7 @@ export default [
       // Problematic with useOnOff.
       'unicorn/no-unreadable-array-destructuring': 'off',
       'unicorn/prefer-regexp-test': 'off',
-      // Unfortunately too annoying on valid cases + conflicts with TS.
+      // Unfortunately, too annoying on valid cases, plus it conflicts with TS.
       'unicorn/no-array-callback-reference': 'off',
       // May conflict with other rule + ugly switch(0) auto-fix.
       'unicorn/prefer-switch': 'off',
@@ -52,4 +53,4 @@ export default [
       'unicorn/no-anonymous-default-export': 'off',
     },
   },
-];
+]);
