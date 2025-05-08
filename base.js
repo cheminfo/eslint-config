@@ -4,6 +4,7 @@ import globals from 'globals';
 
 export default defineConfig(
   {
+    name: 'cheminfo/base/rules',
     plugins: {
       import: importPlugin,
     },
@@ -332,6 +333,7 @@ export default defineConfig(
     },
   },
   {
+    name: 'cheminfo/base/cjs',
     // .cjs files are always for Node.js.
     files: ['**/*.cjs'],
     languageOptions: {
@@ -342,6 +344,7 @@ export default defineConfig(
     },
   },
   {
+    name: 'cheminfo/base/config-files',
     // Configuration files are usually for Node.js modules.
     files: ['**/*.config.{js,cjs,mjs,ts,cts,mts}'],
     languageOptions: {

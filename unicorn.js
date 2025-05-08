@@ -4,6 +4,7 @@ import unicorn from 'eslint-plugin-unicorn';
 export default defineConfig([
   unicorn.configs['flat/recommended'],
   {
+    name: 'cheminfo/unicorn/rules',
     rules: {
       // We are not consistent enough to enable this rule.
       'unicorn/filename-case': 'off',

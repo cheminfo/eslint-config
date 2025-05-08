@@ -4,6 +4,7 @@ import jsdoc from 'eslint-plugin-jsdoc';
 export default defineConfig(
   jsdoc.configs['flat/recommended'],
   {
+    name: 'cheminfo/jsdoc/rules',
     settings: {
       jsdoc: {
         ignoreInternal: true,
@@ -25,6 +26,7 @@ export default defineConfig(
     },
   },
   {
+    name: 'cheminfo/jsdoc/typescript',
     files: ['**/*.{ts,tsx,cts,mts}'],
     rules: {
       'jsdoc/require-param-type': 'off',
