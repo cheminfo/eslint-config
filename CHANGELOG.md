@@ -1,5 +1,12 @@
 # Changelog
 
+## [14.1.0](https://github.com/cheminfo/eslint-config/compare/v14.0.0...v14.1.0) (2025-05-08)
+
+
+### Features
+
+* update eslint-plugin-unicorn to v59 ([cba1ab5](https://github.com/cheminfo/eslint-config/commit/cba1ab5b14edc725b185649a126d0b51776a71be))
+
 ## [14.0.0](https://github.com/cheminfo/eslint-config/compare/v13.0.0...v14.0.0) (2025-03-12)
 
 
