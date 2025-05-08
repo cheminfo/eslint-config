@@ -1,5 +1,12 @@
 # Changelog
 
+## [14.1.1](https://github.com/cheminfo/eslint-config/compare/v14.1.0...v14.1.1) (2025-05-08)
+
+
+### Bug Fixes
+
+* add names to config objects ([67f4386](https://github.com/cheminfo/eslint-config/commit/67f43868a57cb3c7dcfb371a1854683e5dcbe822))
+
 ## [14.1.0](https://github.com/cheminfo/eslint-config/compare/v14.0.0...v14.1.0) (2025-05-08)
 
 
