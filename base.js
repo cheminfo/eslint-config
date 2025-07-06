@@ -21,7 +21,7 @@ export default defineConfig(
 
     rules: {
       // https://eslint.org/docs/latest/rules/
-      // Last rules review: v9.15.0
+      // Last rules review: v9.30.0
 
       // https://github.com/import-js/eslint-plugin-import#rules
       // Last rules review: v2.31.0
