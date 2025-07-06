@@ -24,7 +24,7 @@ export default defineConfig(
       // Last rules review: v9.30.0
 
       // https://github.com/import-js/eslint-plugin-import#rules
-      // Last rules review: v2.31.0
+      // Last rules review: v2.32.0
 
       //#region Possible Problems (https://eslint.org/docs/latest/rules/#possible-problems)
       'array-callback-return': 'error',
@@ -261,6 +261,8 @@ export default defineConfig(
       // Static analysis
       // These are bugs that can be caught by tests and TypeScript.
       // 'import/default': 'off',
+      // Already checked by unicorn plugin.
+      // 'import/enforce-node-protocol-usage': 'off',
       // 'import/named': 'off',
       // 'import/namespace': 'off',
       'import/no-absolute-path': 'error',
@@ -311,8 +313,9 @@ export default defineConfig(
         },
       ],
       'import/order': [
-        'warn',
+        'error',
         {
+          named: true,
           groups: [
             'builtin',
             'external',
@@ -324,6 +327,7 @@ export default defineConfig(
           'newlines-between': 'always',
           alphabetize: {
             order: 'asc',
+            orderImportKind: 'asc',
           },
         },
       ],

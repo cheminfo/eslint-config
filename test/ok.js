@@ -2,12 +2,10 @@ let a, b, c;
 let x = 1;
 let y = 2;
 let z;
-useIt(x, y, z);
 
 a = 1;
 b = 2;
 c = a + b;
-useIt(c);
 
 /**
  * This is function a.
@@ -18,7 +16,7 @@ export function A() {
 }
 
 // Allow regexes without unicode flag
-useIt(/abc/);
+const reg = /abc/;
 
 (function f() {
   return 1;
@@ -48,13 +46,3 @@ function internalNotExported(x) {
 internalNotExported('test');
 
 let bigint = new BigInt64Array(1);
-useIt(bigint);
-
-/**
- * Use this function to mark a variable as used.
- * @param  {...any} vals - The values to use.
- * @returns {any} The used values.
- */
-function useIt(...vals) {
-  return vals;
-}

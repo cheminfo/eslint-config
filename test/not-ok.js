@@ -1,5 +1,8 @@
 'use strict';
 
+// Wrong import name order and missing node: protocol.
+import { join, dirname } from 'path';
+
 import '/absolute/path';
 
 console.log('abc');
@@ -8,7 +11,6 @@ let a;
 
 var x = 'b';
 var x;
-useIt(x);
 
 x = {
   useless: 'quotes',
@@ -16,21 +18,12 @@ x = {
 
 let y = 1,
   z;
-useIt(y, z);
 
 function A() {
   this.x = 1;
 }
 
-useIt(
-  ['a', 'b', 'c'].reduce((prev, curr) => {
-    prev[curr] = true;
-    return prev;
-  }),
-  {},
-);
-
-// use this function to mark a variable as used
-function useIt(...vals) {
-  return vals;
-}
+['a', 'b', 'c'].reduce((prev, curr) => {
+  prev[curr] = true;
+  return prev;
+});
