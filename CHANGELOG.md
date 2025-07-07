@@ -1,5 +1,21 @@
 # Changelog
 
+## [15.0.0](https://github.com/cheminfo/eslint-config/compare/v14.1.1...v15.0.0) (2025-07-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* add Vitest plugin and strict config
+* enforce import order and add named imports and type-only check
+* update ESLint to v9.30
+
+### Features
+
+* add Vitest plugin and strict config ([7de1b76](https://github.com/cheminfo/eslint-config/commit/7de1b764e837fc900c2542f3c29aad33e7642f94))
+* enforce import order and add named imports and type-only check ([38583a3](https://github.com/cheminfo/eslint-config/commit/38583a362667211ef7745ffc2ecc7a483d75c293))
+* update dependencies ([c36d2de](https://github.com/cheminfo/eslint-config/commit/c36d2de14f2ca033afed311052b9639a3617ed2a))
+* update ESLint to v9.30 ([909b347](https://github.com/cheminfo/eslint-config/commit/909b3473021a6be0285b6a0791276b5be45b26b5))
+
 ## [14.1.1](https://github.com/cheminfo/eslint-config/compare/v14.1.0...v14.1.1) (2025-05-08)
 
 
