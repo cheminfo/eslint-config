@@ -1,39 +1,68 @@
 import assert from 'node:assert';
+import { test } from 'node:test';
 
 import { loadESLint } from 'eslint';
+
+globalThis.process.env.LINT_NOT_OK = 'true';
 
 const ESLint = await loadESLint({ useFlatConfig: true });
 /** @type {import('eslint').ESLint} */
 const eslint = new ESLint();
 
-const [okResult, notOkResult] = await eslint.lintFiles([
-  'test/ok.js',
-  'test/not-ok.js',
-]);
+test('ok file', async () => {
+  const [okResult] = await eslint.lintFiles(['test/__tests__/ok.test.js']);
+  const okErrors = okResult.messages.filter(isError).filter(ignoreUnusedVars);
+  assert.strictEqual(
+    okErrors.length,
+    0,
+    `ok.js should have no error: ${okErrors.map((error) => error.ruleId)}`,
+  );
+});
 
-const okErrors = okResult.messages.filter(isError).filter(ignoreUnusedVars);
+test('not ok file', async () => {
+  const [notOkResult] = await eslint.lintFiles(['test/not-ok.js']);
+  const errors = notOkResult.messages
+    .filter(isError)
+    .filter(ignoreUnusedVars)
+    .map((error) => error.ruleId)
+    .sort();
 
-assert.strictEqual(okErrors.length, 0, 'ok.js should have no error');
+  assert.deepStrictEqual(errors, [
+    'import/no-absolute-path',
+    'import/no-unassigned-import',
+    'import/order',
+    'no-console',
+    'no-redeclare',
+    'no-var',
+    'no-var',
+    'one-var',
+    'strict',
+    'unicorn/no-array-reduce',
+    'unicorn/prefer-node-protocol',
+  ]);
+});
 
-const errors = notOkResult.messages
-  .filter(isError)
-  .filter(ignoreUnusedVars)
-  .map((error) => error.ruleId)
-  .sort();
+test('ok test file', async () => {
+  const [okResult] = await eslint.lintFiles(['test/ok.js']);
+  const okErrors = okResult.messages.filter(isError).filter(ignoreUnusedVars);
+  assert.strictEqual(okErrors.length, 0, 'ok.js should have no error');
+});
 
-assert.deepStrictEqual(errors, [
-  'import/no-absolute-path',
-  'import/no-unassigned-import',
-  'import/order',
-  'no-console',
-  'no-redeclare',
-  'no-var',
-  'no-var',
-  'one-var',
-  'strict',
-  'unicorn/no-array-reduce',
-  'unicorn/prefer-node-protocol',
-]);
+test('not ok test file', async () => {
+  const [notOkResult] = await eslint.lintFiles(['test/not_ok.test.js']);
+  const errors = notOkResult.messages
+    .filter(isError)
+    .filter(ignoreUnusedVars)
+    .map((error) => error.ruleId)
+    .sort();
+
+  assert.deepStrictEqual(errors, [
+    'vitest/consistent-test-it',
+    'vitest/consistent-test-it',
+    'vitest/expect-expect',
+    'vitest/no-alias-methods',
+  ]);
+});
 
 function isError(message) {
   return message.severity === 2;
