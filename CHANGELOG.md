@@ -1,5 +1,12 @@
 # Changelog
 
+## [15.0.1](https://github.com/cheminfo/eslint-config/compare/v15.0.0...v15.0.1) (2025-07-24)
+
+
+### Bug Fixes
+
+* update unicorn plugin to v60 ([#78](https://github.com/cheminfo/eslint-config/issues/78)) ([775ed4c](https://github.com/cheminfo/eslint-config/commit/775ed4c37e8abf92afe10ba097454b3d4ea1b9b1))
+
 ## [15.0.0](https://github.com/cheminfo/eslint-config/compare/v14.1.1...v15.0.0) (2025-07-07)
 
 
