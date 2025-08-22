@@ -1,5 +1,12 @@
 # Changelog
 
+## [15.0.2](https://github.com/cheminfo/eslint-config/compare/v15.0.1...v15.0.2) (2025-08-22)
+
+
+### Bug Fixes
+
+* update jsdoc plugin ([#81](https://github.com/cheminfo/eslint-config/issues/81)) ([e16c207](https://github.com/cheminfo/eslint-config/commit/e16c207c69f64f7c6f8f67669d494b216715d9f2))
+
 ## [15.0.1](https://github.com/cheminfo/eslint-config/compare/v15.0.0...v15.0.1) (2025-07-24)
 
 
