@@ -25,7 +25,7 @@ test('not ok file', async () => {
     .filter(isError)
     .filter(ignoreUnusedVars)
     .map((error) => error.ruleId)
-    .sort();
+    .toSorted();
 
   assert.deepStrictEqual(errors, [
     'import/no-absolute-path',
@@ -54,7 +54,7 @@ test('not ok test file', async () => {
     .filter(isError)
     .filter(ignoreUnusedVars)
     .map((error) => error.ruleId)
-    .sort();
+    .toSorted();
 
   assert.deepStrictEqual(errors, [
     'vitest/consistent-test-it',
