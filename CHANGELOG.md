@@ -1,5 +1,16 @@
 # Changelog
 
+## [16.0.0](https://github.com/cheminfo/eslint-config/compare/v15.0.2...v16.0.0) (2025-09-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* update ESLint, plugins and add `preserve-caught-error` rule ([#83](https://github.com/cheminfo/eslint-config/issues/83))
+
+### Features
+
+* update ESLint, plugins and add `preserve-caught-error` rule ([#83](https://github.com/cheminfo/eslint-config/issues/83)) ([2e9ec3e](https://github.com/cheminfo/eslint-config/commit/2e9ec3eece9a4080feb4e95e5090b9d80f364058))
+
 ## [15.0.2](https://github.com/cheminfo/eslint-config/compare/v15.0.1...v15.0.2) (2025-08-22)
 
 
