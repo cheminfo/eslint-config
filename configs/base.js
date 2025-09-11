@@ -21,7 +21,7 @@ export default defineConfig(
 
     rules: {
       // https://eslint.org/docs/latest/rules/
-      // Last rules review: v9.30.0
+      // Last rules review: v9.35.0
 
       // https://github.com/import-js/eslint-plugin-import#rules
       // Last rules review: v2.32.0
@@ -215,6 +215,7 @@ export default defineConfig(
       'prefer-rest-params': 'error',
       'prefer-spread': 'error',
       'prefer-template': 'error',
+      'preserve-caught-error': ['error', { requireCatchParameter: true }],
       radix: 'error',
       'require-await': 'off',
       'require-unicode-regexp': 'off',
