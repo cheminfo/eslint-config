@@ -1,5 +1,16 @@
 # Changelog
 
+## [17.0.0](https://github.com/cheminfo/eslint-config/compare/v16.0.1...v17.0.0) (2025-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* update plugins and ESLint peer dependency ([#87](https://github.com/cheminfo/eslint-config/issues/87))
+
+### Features
+
+* update plugins and ESLint peer dependency ([#87](https://github.com/cheminfo/eslint-config/issues/87)) ([8721b35](https://github.com/cheminfo/eslint-config/commit/8721b35b4a3b3513e03a74d16e8b6f1f3e8d392e))
+
 ## [16.0.1](https://github.com/cheminfo/eslint-config/compare/v16.0.0...v16.0.1) (2025-10-06)
 
 
