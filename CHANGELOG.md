@@ -1,5 +1,12 @@
 # Changelog
 
+## [17.1.0](https://github.com/cheminfo/eslint-config/compare/v17.0.0...v17.1.0) (2026-01-20)
+
+
+### Features
+
+* update dependencies ([#89](https://github.com/cheminfo/eslint-config/issues/89)) ([1966a09](https://github.com/cheminfo/eslint-config/commit/1966a0920d4f5f428a05804061bde2002945e95a))
+
 ## [17.0.0](https://github.com/cheminfo/eslint-config/compare/v16.0.1...v17.0.0) (2025-11-11)
 
 
