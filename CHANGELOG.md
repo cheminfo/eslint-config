@@ -1,5 +1,12 @@
 # Changelog
 
+## [17.2.0](https://github.com/cheminfo/eslint-config/compare/v17.1.0...v17.2.0) (2026-04-02)
+
+
+### Features
+
+* update unicorn plugin to v64 ([#100](https://github.com/cheminfo/eslint-config/issues/100)) ([dac5382](https://github.com/cheminfo/eslint-config/commit/dac5382b30431d64407c392cb27b651c1cb81501))
+
 ## [17.1.0](https://github.com/cheminfo/eslint-config/compare/v17.0.0...v17.1.0) (2026-01-20)
 
 
