@@ -6,6 +6,8 @@ export default defineConfig([
   {
     name: 'cheminfo/unicorn/rules',
     rules: {
+      'unicorn/consistent-destructuring': 'error',
+      'unicorn/prefer-import-meta-properties': 'error',
       // We are not consistent enough to enable this rule.
       'unicorn/filename-case': 'off',
       // Some prefer to always use destructuring.

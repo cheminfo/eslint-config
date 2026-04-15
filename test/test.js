@@ -37,7 +37,9 @@ test('not ok file', async () => {
     'no-var',
     'one-var',
     'strict',
+    'unicorn/consistent-destructuring',
     'unicorn/no-array-reduce',
+    'unicorn/prefer-import-meta-properties',
     'unicorn/prefer-node-protocol',
   ]);
 });

@@ -1,5 +1,6 @@
 'use strict';
 
+import { fileURLToPath } from 'node:url';
 // Wrong import name order and missing node: protocol.
 import { join, dirname } from 'path';
 
@@ -27,3 +28,10 @@ function A() {
   prev[curr] = true;
   return prev;
 });
+
+function destructuring(params) {
+  const { a, b } = params;
+  return a + b + params.c;
+}
+
+const dir = dirname(fileURLToPath(import.meta.url));
