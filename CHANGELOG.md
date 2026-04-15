@@ -1,5 +1,16 @@
 # Changelog
 
+## [18.0.0](https://github.com/cheminfo/eslint-config/compare/v17.2.0...v18.0.0) (2026-04-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* enable two unicorn rules ([#102](https://github.com/cheminfo/eslint-config/issues/102))
+
+### Features
+
+* enable two unicorn rules ([#102](https://github.com/cheminfo/eslint-config/issues/102)) ([8e788a0](https://github.com/cheminfo/eslint-config/commit/8e788a050a5a05bfac2dad401f95757e32127950))
+
 ## [17.2.0](https://github.com/cheminfo/eslint-config/compare/v17.1.0...v17.2.0) (2026-04-02)
 
 
