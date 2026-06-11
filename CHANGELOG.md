@@ -1,5 +1,12 @@
 # Changelog
 
+## [18.1.0](https://github.com/cheminfo/eslint-config/compare/v18.0.0...v18.1.0) (2026-06-11)
+
+
+### Features
+
+* update dependencies ([#105](https://github.com/cheminfo/eslint-config/issues/105)) ([1265f1d](https://github.com/cheminfo/eslint-config/commit/1265f1de267088ada38928663a2239957867f55c))
+
 ## [18.0.0](https://github.com/cheminfo/eslint-config/compare/v17.2.0...v18.0.0) (2026-04-15)
 
 
