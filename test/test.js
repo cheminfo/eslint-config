@@ -39,6 +39,7 @@ test('not ok file', async () => {
     'strict',
     'unicorn/consistent-destructuring',
     'unicorn/no-array-reduce',
+    'unicorn/no-this-outside-of-class',
     'unicorn/prefer-import-meta-properties',
     'unicorn/prefer-node-protocol',
   ]);
@@ -47,7 +48,7 @@ test('not ok file', async () => {
 test('ok test file', async () => {
   const [okResult] = await eslint.lintFiles(['test/ok.js']);
   const okErrors = okResult.messages.filter(isError).filter(ignoreUnusedVars);
-  assert.strictEqual(okErrors.length, 0, 'ok.js should have no error');
+  assert.deepStrictEqual(okErrors, []);
 });
 
 test('not ok test file', async () => {
