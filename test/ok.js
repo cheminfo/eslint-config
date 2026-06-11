@@ -11,8 +11,8 @@ c = a + b;
  * This is function a.
  * @returns {void}
  */
-export function A() {
-  this.x = 1;
+export function aFn() {
+  return 1;
 }
 
 // Allow regexes without unicode flag
