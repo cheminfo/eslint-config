@@ -24,14 +24,14 @@ function A() {
   this.x = 1;
 }
 
-['a', 'b', 'c'].reduce((prev, curr) => {
-  prev[curr] = true;
-  return prev;
+['a', 'b', 'c'].reduce((previous, current) => {
+  previous[current] = true;
+  return previous;
 });
 
-function destructuring(params) {
-  const { a, b } = params;
-  return a + b + params.c;
+function destructuring(parameters) {
+  const { a, b } = parameters;
+  return a + b * parameters.b;
 }
 
 const dir = dirname(fileURLToPath(import.meta.url));

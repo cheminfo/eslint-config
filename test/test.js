@@ -6,12 +6,14 @@ import { loadESLint } from 'eslint';
 globalThis.process.env.LINT_NOT_OK = 'true';
 
 const ESLint = await loadESLint({ useFlatConfig: true });
-/** @type {import('eslint').ESLint} */
+/**
+ * @type {import('eslint').ESLint}
+ */
 const eslint = new ESLint();
 
 test('ok file', async () => {
   const [okResult] = await eslint.lintFiles(['test/__tests__/ok.test.js']);
-  const okErrors = okResult.messages.filter(isError).filter(ignoreUnusedVars);
+  const okErrors = okResult.messages.filter(isError).filter(isUnusedVars);
   assert.strictEqual(
     okErrors.length,
     0,
@@ -23,9 +25,9 @@ test('not ok file', async () => {
   const [notOkResult] = await eslint.lintFiles(['test/not-ok.js']);
   const errors = notOkResult.messages
     .filter(isError)
-    .filter(ignoreUnusedVars)
+    .filter(isUnusedVars)
     .map((error) => error.ruleId)
-    .toSorted();
+    .toSorted((a, b) => a.localeCompare(b));
 
   assert.deepStrictEqual(errors, [
     'import/no-absolute-path',
@@ -38,6 +40,7 @@ test('not ok file', async () => {
     'one-var',
     'strict',
     'unicorn/consistent-destructuring',
+    'unicorn/name-replacements',
     'unicorn/no-array-reduce',
     'unicorn/no-this-outside-of-class',
     'unicorn/prefer-import-meta-properties',
@@ -47,7 +50,7 @@ test('not ok file', async () => {
 
 test('ok test file', async () => {
   const [okResult] = await eslint.lintFiles(['test/ok.js']);
-  const okErrors = okResult.messages.filter(isError).filter(ignoreUnusedVars);
+  const okErrors = okResult.messages.filter(isError).filter(isUnusedVars);
   assert.deepStrictEqual(okErrors, []);
 });
 
@@ -55,9 +58,9 @@ test('not ok test file', async () => {
   const [notOkResult] = await eslint.lintFiles(['test/not_ok.test.js']);
   const errors = notOkResult.messages
     .filter(isError)
-    .filter(ignoreUnusedVars)
+    .filter(isUnusedVars)
     .map((error) => error.ruleId)
-    .toSorted();
+    .toSorted((a, b) => a.localeCompare(b));
 
   assert.deepStrictEqual(errors, [
     'vitest/consistent-test-it',
@@ -71,6 +74,7 @@ function isError(message) {
   return message.severity === 2;
 }
 
-function ignoreUnusedVars(message) {
+// eslint-disable-next-line unicorn/name-replacements
+function isUnusedVars(message) {
   return message.ruleId !== 'no-unused-vars';
 }
