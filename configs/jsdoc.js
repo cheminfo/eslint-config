@@ -1,5 +1,5 @@
 import { defineConfig } from 'eslint/config';
-import jsdoc from 'eslint-plugin-jsdoc';
+import * as jsdoc from 'eslint-plugin-jsdoc';
 
 export default defineConfig(
   jsdoc.configs['flat/recommended'],
