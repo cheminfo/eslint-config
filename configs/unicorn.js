@@ -12,8 +12,6 @@ export default defineConfig([
       'unicorn/filename-case': 'off',
       // Some prefer to always use destructuring.
       'unicorn/import-style': 'off',
-      // Flags i,j,k, etc.
-      'unicorn/prevent-abbreviations': 'off',
       // TODO: create issue about risk (>32bit integers)
       'unicorn/prefer-math-trunc': 'off',
       // We prefer Array.from(x) over [...x].

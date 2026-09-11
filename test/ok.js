@@ -11,16 +11,12 @@ c = a + b;
  * This is function a.
  * @returns {void}
  */
-export function aFn() {
+export function aFunction() {
   return 1;
 }
 
 // Allow regexes without unicode flag
 const reg = /abc/;
-
-(function f() {
-  return 1;
-})();
 
 /**
  * Checks a.
@@ -43,6 +39,6 @@ function internalNotExported(x) {
   return x;
 }
 
-internalNotExported('test');
+const usedInternalNotExported = internalNotExported;
 
 let bigint = new BigInt64Array(1);
