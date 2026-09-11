@@ -1,12 +1,12 @@
 import { defineConfig } from 'eslint/config';
-import importPlugin from 'eslint-plugin-import';
+import { importX } from 'eslint-plugin-import-x';
 import globals from 'globals';
 
 export default defineConfig(
   {
     name: 'cheminfo/base/rules',
     plugins: {
-      import: importPlugin,
+      import: importX,
     },
 
     linterOptions: {
