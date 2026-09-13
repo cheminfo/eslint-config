@@ -1,5 +1,21 @@
 # Changelog
 
+## [19.0.0](https://github.com/cheminfo/eslint-config/compare/v18.1.0...v19.0.0) (2026-09-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* update unicorn plugin to v74
+* update ESLint to v10
+* update import plugin to "-x" fork
+
+### Features
+
+* update ESLint to v10 ([2a08a2e](https://github.com/cheminfo/eslint-config/commit/2a08a2eda71bc1dedd78e834675594385b4700cb))
+* update import plugin to "-x" fork ([e209063](https://github.com/cheminfo/eslint-config/commit/e20906373e3d3e7cb337251a85804297e5aa6d3d))
+* update jsdoc plugin to v64 ([e56b3b7](https://github.com/cheminfo/eslint-config/commit/e56b3b7ff74f580195a2d44b7b4ac84c94120521))
+* update unicorn plugin to v74 ([4e8213f](https://github.com/cheminfo/eslint-config/commit/4e8213fe6752461655e95d9e51fc35cd57d8062c))
+
 ## [18.1.0](https://github.com/cheminfo/eslint-config/compare/v18.0.0...v18.1.0) (2026-06-11)
 
 
