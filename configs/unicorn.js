@@ -52,6 +52,19 @@ export default defineConfig([
       'unicorn/no-empty-file': 'off',
       // We already have a rule for anonymous functions and tooling often does this with config.
       'unicorn/no-anonymous-default-export': 'off',
+      'unicorn/name-replacements': [
+        'error',
+        {
+          allowList: {
+            i: true,
+            j: true,
+          },
+        },
+      ],
+      // This is usually not a source of perf issues and maybe not the best heuristic.
+      'unicorn/prefer-simple-condition-first': 'off',
+      // Data processing algorithms are often based on nested loops and would be difficult to refactor for little benefit.
+      'unicorn/no-break-in-nested-loop': 'off',
     },
   },
 ]);
