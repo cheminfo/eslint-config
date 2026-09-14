@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.0.1](https://github.com/cheminfo/eslint-config/compare/v19.0.0...v19.0.1) (2026-09-14)
+
+
+### Bug Fixes
+
+* disable some new unicorn rules ([#114](https://github.com/cheminfo/eslint-config/issues/114)) ([fa03892](https://github.com/cheminfo/eslint-config/commit/fa0389262ac95ad9afe82829268041d3a01844eb))
+
 ## [19.0.0](https://github.com/cheminfo/eslint-config/compare/v18.1.0...v19.0.0) (2026-09-13)
 
 
