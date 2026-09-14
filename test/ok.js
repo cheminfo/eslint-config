@@ -39,6 +39,21 @@ function internalNotExported(x) {
   return x;
 }
 
+/**
+ * Returns the sum of a 2D array.
+ * @param array - {number[][]} - input
+ * @returns {number} - the sum
+ */
+export function sum2D(array) {
+  let total = 0;
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array[i].length; j++) {
+      total += array[i][j];
+    }
+  }
+  return total;
+}
+
 const usedInternalNotExported = internalNotExported;
 
 let bigint = new BigInt64Array(1);
