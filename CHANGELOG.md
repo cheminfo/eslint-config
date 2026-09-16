@@ -1,5 +1,17 @@
 # Changelog
 
+## [19.1.0](https://github.com/cheminfo/eslint-config/compare/v19.0.1...v19.1.0) (2026-09-16)
+
+
+### Features
+
+* update unicorn plugin to v75 ([468c799](https://github.com/cheminfo/eslint-config/commit/468c799b540ba85fdc7cd4ad0bf01f108c2dc347))
+
+
+### Bug Fixes
+
+* expose `nameReplacementsAllowList` for child configs ([e061454](https://github.com/cheminfo/eslint-config/commit/e0614541c7058fc5631e499aa1cb1dafd23e9a83))
+
 ## [19.0.1](https://github.com/cheminfo/eslint-config/compare/v19.0.0...v19.0.1) (2026-09-14)
 
 
