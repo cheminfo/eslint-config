@@ -1,6 +1,8 @@
 import { defineConfig } from 'eslint/config';
 import unicorn from 'eslint-plugin-unicorn';
 
+import { nameReplacementsAllowList } from './utilities.js';
+
 export default defineConfig([
   unicorn.configs['flat/recommended'],
   {
@@ -55,10 +57,7 @@ export default defineConfig([
       'unicorn/name-replacements': [
         'error',
         {
-          allowList: {
-            i: true,
-            j: true,
-          },
+          allowList: nameReplacementsAllowList,
         },
       ],
       // This is usually not a source of perf issues and maybe not the best heuristic.
