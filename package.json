@@ -8,6 +8,7 @@
     "./base": "./configs/base.js",
     "./jsdoc": "./configs/jsdoc.js",
     "./unicorn": "./configs/unicorn.js",
+    "./utilities": "./configs/utilities.js",
     "./vitest": "./configs/vitest.js"
   },
   "files": [
