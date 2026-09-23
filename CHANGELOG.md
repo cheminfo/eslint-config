@@ -1,5 +1,13 @@
 # Changelog
 
+## [19.1.1](https://github.com/cheminfo/eslint-config/compare/v19.1.0...v19.1.1) (2026-09-23)
+
+
+### Bug Fixes
+
+* allow `ctx` and `utils` names ([2067a92](https://github.com/cheminfo/eslint-config/commit/2067a9273189c382d6bdbee823de01b6716beea5))
+* update unicorn plugin to v76 ([3ba88d3](https://github.com/cheminfo/eslint-config/commit/3ba88d3369258dcb3762c11df75f458cead46eb1))
+
 ## [19.1.0](https://github.com/cheminfo/eslint-config/compare/v19.0.1...v19.1.0) (2026-09-16)
 
 
