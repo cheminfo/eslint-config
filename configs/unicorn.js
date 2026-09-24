@@ -64,6 +64,9 @@ export default defineConfig([
       'unicorn/prefer-simple-condition-first': 'off',
       // Data processing algorithms are often based on nested loops and would be difficult to refactor for little benefit.
       'unicorn/no-break-in-nested-loop': 'off',
+      // This is risky because it suggests to use Object.hasOwn, which will not behave the same when the existence check should ignore
+      // existing properties with the value `undefined`.
+      'unicorn/no-computed-property-existence-check': 'off',
     },
   },
 ]);
