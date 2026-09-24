@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.1.2](https://github.com/cheminfo/eslint-config/compare/v19.1.1...v19.1.2) (2026-09-24)
+
+
+### Bug Fixes
+
+* disable risky rule `unicorn/no-computed-property-existence-check` ([3644af8](https://github.com/cheminfo/eslint-config/commit/3644af873f3cb513578217913a1ff60e39d23102))
+
 ## [19.1.1](https://github.com/cheminfo/eslint-config/compare/v19.1.0...v19.1.1) (2026-09-23)
 
 
