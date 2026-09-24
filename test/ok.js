@@ -57,3 +57,16 @@ export function sum2D(array) {
 const usedInternalNotExported = internalNotExported;
 
 let bigint = new BigInt64Array(1);
+
+/**
+ * Test function.
+ * @param {object} object - object
+ * @param {string} key - key
+ * @returns {unknown} anything
+ */
+export function test(object, key) {
+  if (object[key]) {
+    return object[key];
+  }
+  return null;
+}
