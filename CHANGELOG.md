@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.2.0](https://github.com/cheminfo/eslint-config/compare/v19.1.2...v19.2.0) (2026-10-01)
+
+
+### Features
+
+* update jsdoc plugin to v65 ([#122](https://github.com/cheminfo/eslint-config/issues/122)) ([7c512aa](https://github.com/cheminfo/eslint-config/commit/7c512aad28550a6fce3a7edb49ef756493e08fde))
+
 ## [19.1.2](https://github.com/cheminfo/eslint-config/compare/v19.1.1...v19.1.2) (2026-09-24)
 
 
