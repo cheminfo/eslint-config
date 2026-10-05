@@ -7,9 +7,7 @@ describe('desc', () => {
 });
 
 test('alone', async () => {
-  const result = await new Promise((resolve) => {
-    resolve(42);
-  });
+  const result = await Promise.resolve(42);
 
   expect(result).toBe(42);
 });

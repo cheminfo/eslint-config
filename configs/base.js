@@ -2,7 +2,7 @@ import { defineConfig } from 'eslint/config';
 import { importX } from 'eslint-plugin-import-x';
 import globals from 'globals';
 
-export default defineConfig(
+const config = defineConfig(
   {
     name: 'cheminfo/base/rules',
     plugins: {
@@ -359,3 +359,5 @@ export default defineConfig(
     },
   },
 );
+
+export default config;

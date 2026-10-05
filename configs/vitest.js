@@ -1,6 +1,8 @@
 import vitest from '@vitest/eslint-plugin';
 
-/** @type {import('eslint/config').Config} */
+/**
+ * @type {import('eslint/config').Config}
+ */
 const vitestConfig = {
   name: 'cheminfo/vitest/rules',
   files: ['**/*.test.{js,mjs,cjs,jsx}'],

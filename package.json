@@ -15,7 +15,7 @@
     "configs"
   ],
   "scripts": {
-    "eslint": "eslint *.js test/test.js",
+    "eslint": "eslint configs eslint.config.js test/test.js",
     "eslint-fix": "npm run eslint -- --fix",
     "prettier": "prettier --check .",
     "prettier-write": "prettier --write .",
@@ -36,8 +36,8 @@
   "dependencies": {
     "@vitest/eslint-plugin": "^1.6.27",
     "eslint-plugin-import-x": "^4.17.1",
-    "eslint-plugin-jsdoc": "^65.0.1",
-    "eslint-plugin-unicorn": "^76.0.0",
+    "eslint-plugin-jsdoc": "^65.1.0",
+    "eslint-plugin-unicorn": "^77.0.0",
     "globals": "^17.13.0"
   },
   "peerDependencies": {
