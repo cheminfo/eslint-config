@@ -14,11 +14,7 @@ const eslint = new ESLint();
 test('ok file', async () => {
   const [okResult] = await eslint.lintFiles(['test/__tests__/ok.test.js']);
   const okErrors = okResult.messages.filter(isError).filter(isUnusedVars);
-  assert.strictEqual(
-    okErrors.length,
-    0,
-    `ok.js should have no error: ${okErrors.map((error) => error.ruleId)}`,
-  );
+  assert.deepStrictEqual(okErrors, [], 'ok.js should have no error');
 });
 
 test('not ok file', async () => {

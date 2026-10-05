@@ -3,8 +3,8 @@ import unicorn from 'eslint-plugin-unicorn';
 
 import { nameReplacementsAllowList } from './utilities.js';
 
-export default defineConfig([
-  unicorn.configs['flat/recommended'],
+const config = defineConfig([
+  unicorn.configs.recommended,
   {
     name: 'cheminfo/unicorn/rules',
     rules: {
@@ -27,6 +27,8 @@ export default defineConfig([
       'unicorn/no-array-callback-reference': 'off',
       // Rare and problematic with APIs that have a find method.
       'unicorn/no-array-method-this-argument': 'off',
+      // Our convention is to have the asterisk prefixes.
+      'unicorn/no-asterisk-prefix-in-documentation-comments': 'off',
       // Data processing algorithms are often based on nested loops and would be difficult to refactor for little benefit.
       'unicorn/no-break-in-nested-loop': 'off',
       // This is risky because it suggests to use Object.hasOwn, which will not behave the same when the existence check should ignore
@@ -70,3 +72,5 @@ export default defineConfig([
     },
   },
 ]);
+
+export default config;

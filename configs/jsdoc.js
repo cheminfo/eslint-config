@@ -1,7 +1,7 @@
 import { defineConfig } from 'eslint/config';
 import * as jsdoc from 'eslint-plugin-jsdoc';
 
-export default defineConfig(
+const config = defineConfig(
   jsdoc.configs['flat/recommended'],
   {
     name: 'cheminfo/jsdoc/rules',
@@ -35,3 +35,5 @@ export default defineConfig(
     },
   },
 );
+
+export default config;
