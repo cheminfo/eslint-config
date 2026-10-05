@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.3.0](https://github.com/cheminfo/eslint-config/compare/v19.2.0...v19.3.0) (2026-10-05)
+
+
+### Features
+
+* update unicorn plugin to v77 ([#124](https://github.com/cheminfo/eslint-config/issues/124)) ([f18da18](https://github.com/cheminfo/eslint-config/commit/f18da18006e327c75d168fd4f89c4268c7661717))
+
 ## [19.2.0](https://github.com/cheminfo/eslint-config/compare/v19.1.2...v19.2.0) (2026-10-01)
 
 
