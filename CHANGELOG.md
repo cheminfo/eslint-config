@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.3.1](https://github.com/cheminfo/eslint-config/compare/v19.3.0...v19.3.1) (2026-10-06)
+
+
+### Bug Fixes
+
+* **unicorn:** temporarily disable `unicorn/no-top-level-side-effects` ([#127](https://github.com/cheminfo/eslint-config/issues/127)) ([98b38cd](https://github.com/cheminfo/eslint-config/commit/98b38cd0a6f0b55c1246baf0c8b90ba33174eeba))
+
 ## [19.3.0](https://github.com/cheminfo/eslint-config/compare/v19.2.0...v19.3.0) (2026-10-05)
 
 
