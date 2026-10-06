@@ -46,6 +46,8 @@ const config = defineConfig([
       'unicorn/no-new-array': 'off',
       // We use null in many places.
       'unicorn/no-null': 'off',
+      // https://github.com/cheminfo/eslint-config/issues/126
+      'unicorn/no-top-level-side-effects': 'off',
       // Problematic with useOnOff.
       'unicorn/no-unreadable-array-destructuring': 'off',
       'unicorn/no-useless-undefined': 'off',
