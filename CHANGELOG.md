@@ -1,5 +1,13 @@
 # Changelog
 
+## [19.3.2](https://github.com/cheminfo/eslint-config/compare/v19.3.1...v19.3.2) (2026-10-14)
+
+
+### Bug Fixes
+
+* **unicorn:** disable `unicorn/consistent-boolean-name` ([#129](https://github.com/cheminfo/eslint-config/issues/129)) ([b114a0c](https://github.com/cheminfo/eslint-config/commit/b114a0caf10ec1279d6eda7e16617bce708b3826))
+* **unicorn:** re-enable `unicorn/no-top-level-side-effects` ([#131](https://github.com/cheminfo/eslint-config/issues/131)) ([5469dd0](https://github.com/cheminfo/eslint-config/commit/5469dd0325e58d0653ba276d59d5f5ff410fdd74))
+
 ## [19.3.1](https://github.com/cheminfo/eslint-config/compare/v19.3.0...v19.3.1) (2026-10-06)
 
 
