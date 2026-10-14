@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.3.3](https://github.com/cheminfo/eslint-config/compare/v19.3.2...v19.3.3) (2026-10-14)
+
+
+### Bug Fixes
+
+* **unicorn:** allow `env` name ([#132](https://github.com/cheminfo/eslint-config/issues/132)) ([9180aee](https://github.com/cheminfo/eslint-config/commit/9180aeebdf93a727f7c7f61b321eca63b2c9633e))
+
 ## [19.3.2](https://github.com/cheminfo/eslint-config/compare/v19.3.1...v19.3.2) (2026-10-14)
 
 
