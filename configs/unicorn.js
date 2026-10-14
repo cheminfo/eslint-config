@@ -1,7 +1,7 @@
 import { defineConfig } from 'eslint/config';
 import unicorn from 'eslint-plugin-unicorn';
 
-import { nameReplacementsAllowList } from './utilities.js';
+import { nameReplacements, nameReplacementsAllowList } from './utilities.js';
 
 const config = defineConfig([
   unicorn.configs.recommended,
@@ -20,6 +20,7 @@ const config = defineConfig([
       'unicorn/name-replacements': [
         'error',
         {
+          replacements: nameReplacements,
           allowList: nameReplacementsAllowList,
         },
       ],
