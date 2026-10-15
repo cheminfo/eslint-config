@@ -8,8 +8,8 @@ const config = defineConfig([
   {
     name: 'cheminfo/unicorn/rules',
     rules: {
+      'unicorn/consistent-boolean-name': ['error', { prefixes: { force: true } }],
       // Too opinionated and not important.
-      'unicorn/consistent-boolean-name': 'off',
       'unicorn/consistent-destructuring': 'error',
       // We don't use the feature.
       'unicorn/expiring-todo-comments': 'off',
