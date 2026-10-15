@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.4.0](https://github.com/cheminfo/eslint-config/compare/v19.3.3...v19.4.0) (2026-10-15)
+
+
+### Features
+
+* enable `unicorn/consistent-boolean-name` ([#134](https://github.com/cheminfo/eslint-config/issues/134)) ([5b598aa](https://github.com/cheminfo/eslint-config/commit/5b598aaacb753c22600d786c1aa2d580dcda9b33))
+
 ## [19.3.3](https://github.com/cheminfo/eslint-config/compare/v19.3.2...v19.3.3) (2026-10-14)
 
 
