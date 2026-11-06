@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.5.0](https://github.com/cheminfo/eslint-config/compare/v19.4.0...v19.5.0) (2026-11-06)
+
+
+### Features
+
+* update Unicorn plugin to v79 ([#136](https://github.com/cheminfo/eslint-config/issues/136)) ([21785a6](https://github.com/cheminfo/eslint-config/commit/21785a6072464e88cf1b53aeed1bc3b0678f0a69))
+
 ## [19.4.0](https://github.com/cheminfo/eslint-config/compare/v19.3.3...v19.4.0) (2026-10-15)
 
 
