@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.5.1](https://github.com/cheminfo/eslint-config/compare/v19.5.0...v19.5.1) (2026-11-09)
+
+
+### Bug Fixes
+
+* **unicorn:** allow `arg` and `args` variable names ([#138](https://github.com/cheminfo/eslint-config/issues/138)) ([bf6f020](https://github.com/cheminfo/eslint-config/commit/bf6f020818be3da1296c086c7bf76750fd3ee15c))
+
 ## [19.5.0](https://github.com/cheminfo/eslint-config/compare/v19.4.0...v19.5.0) (2026-11-06)
 
 
