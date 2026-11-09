@@ -1,4 +1,6 @@
 export const nameReplacements = {
+  arg: false,
+  args: false,
   env: false,
 };
 
