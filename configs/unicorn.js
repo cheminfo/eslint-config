@@ -58,6 +58,8 @@ const config = defineConfig([
       'unicorn/number-literal-case': 'off',
       // We don't like separators after the comma.
       'unicorn/numeric-separators-style': 'off',
+      // Its auto-fix turns a push loop into Array.from(x, fn), 2.8-4.3x slower on V8.
+      'unicorn/prefer-array-from-map': 'off',
       'unicorn/prefer-global-this': 'off',
       'unicorn/prefer-import-meta-properties': 'error',
       // TODO: create issue about risk (>32bit integers)
